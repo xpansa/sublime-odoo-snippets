@@ -35,13 +35,37 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 104.0,
+		"height": 81.0,
 		"selected_items":
 		[
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: add",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Repository"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
 			[
 				"Package Control: upda",
 				"Package Control: Upgrade Package"
@@ -87,10 +111,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: instal",
-				"Package Control: Install Package"
-			],
-			[
 				"Package Control: isntal",
 				"Package Control: Install Package"
 			],
@@ -124,10 +144,13 @@
 	},
 	"expanded_folders":
 	[
-		"/D/DESARROLLO/sublime-odoo-snippets"
+		"/D/DESARROLLO/sublime-odoo-snippets",
+		"/D/DESARROLLO/sublime-odoo-snippets/models"
 	],
 	"file_history":
 	[
+		"/D/DESARROLLO/sublime-odoo-snippets/.gitignore",
+		"/D/DESARROLLO/sublime-odoo-snippets/.gitmessage",
 		"/D/DESARROLLO/sublime-odoo-snippets/__openerp__base.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/base-xml-openerp.sublime-snippet",
 		"/D/DESARROLLO/__sublime-odoo-snippets/Sublime-OpenERP/Models/model_function-create.sublime-snippet",
@@ -253,9 +276,7 @@
 		"/D/TRABAJO/SSH RSA/ssh.com.txt",
 		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/anubia__dell_inspiron1720/id_rsa.pub",
 		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/anubia__innobo/id_rsa.pub",
-		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/chesu/id_rsa.pub",
-		"/C/Users/Jorge/Desktop/Nueva carpeta/public.txt",
-		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/dlsuarez/dlsuarez.pub"
+		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/chesu/id_rsa.pub"
 	],
 	"find":
 	{
@@ -440,8 +461,36 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -501,7 +550,7 @@
 		[
 			[
 				"",
-				"D:\\TRABAJO\\PROYECTOS\\Forbe Multimedia SL\\project.sublime-project"
+				"D:\\DESARROLLO\\Odoo_Modules\\odoo-module-scaffolding-project\\odoo_module_scaffolding.sublime-workspace"
 			]
 		],
 		"width": 380.0
