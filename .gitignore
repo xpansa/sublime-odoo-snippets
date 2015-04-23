@@ -55,3 +55,11 @@ docs/_build/
 
 # PyBuilder
 target/
+
+
+# Sublime
+.sublime-project
+.sublime-workspace
+
+# Git
+.gitmessage

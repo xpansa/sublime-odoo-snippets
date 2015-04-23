@@ -1,0 +1,530 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Model",
+				"models.Model	OpenERP Class Generic Model"
+			],
+			[
+				"view",
+				"ir.ui.view	ir_ui_view-v8"
+			],
+			[
+				"wizard",
+				"wizard	Odoo Wizard Multi-View Return"
+			],
+			[
+				"def",
+				"def	Method unlink Odoo"
+			],
+			[
+				"import",
+				"import	Import Base OpenERP V8"
+			],
+			[
+				"class",
+				"class	New Class"
+			],
+			[
+				"_order",
+				"_order	OpenERP _order attribute"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"Package Control: upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"Package Control: upa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: lis",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: isnt",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: isnta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/DESARROLLO/sublime-odoo-snippets"
+	],
+	"file_history":
+	[
+		"/D/DESARROLLO/sublime-odoo-snippets/__openerp__base.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/base-xml-openerp.sublime-snippet",
+		"/D/DESARROLLO/__sublime-odoo-snippets/Sublime-OpenERP/Models/model_function-create.sublime-snippet",
+		"/D/DESARROLLO/Odoo_Modules/odoo-technical-reporting/development_tools/demo/res_groups.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-technical-reporting/development_tools/__openerp__.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-technical-reporting/.git/rebase-apply/patch",
+		"/D/DESARROLLO/Odoo_Modules/odoo-technical-reporting/development_tools/security/ir_model_access.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-technical-reporting/development_tools/views/report_groups_models.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/enterprise_name/__openerp__.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/enterprise_name/data/res_partner.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/enterprise_name/data/res_company.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/security/res_groups.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/security/ir_rule.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/security/ir_model_access.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/models/models.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/data/ir_module_data.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/__openerp__.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/views/ir_ui_menu.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-development-exercises/odoo_inheritance_exercise/views/menu_odoo_inheritance_exercise.xml",
+		"/c/users/jorge/appdata/local/temp/odoo_xml_model_data",
+		"/c/users/jorge/appdata/local/temp/odoo_groups_user_data_crossing",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/data/templates.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/demo/demo.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/models/__init__.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/controllers/__init__.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/controllers/controllers.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/__init__.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/enterprise_name/security/res_groups.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/enterprise_name/views/ir_module_module.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/enterprise_name/data/res_users.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/enterprise_name/i18n/gl_ES.mo",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/views/res_config_settings.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/models/res_config_settings.py",
+		"/D/TRABAJO/PROYECTOS/Forbe Multimedia SL/crm_ticket_platforms/__openerp__.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/i18n/es.po",
+		"/D/TRABAJO/PROYECTOS/Forbe Multimedia SL/crm_ticket_platforms/__init__.py",
+		"/D/TRABAJO/PROYECTOS/Forbe Multimedia SL/forbe_multimedia_sl/__openerp__.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/.gitignore",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/.gitmessage",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/security/ir.model.access.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/security/ir.rule.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/views/ir.ui.menu.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/views/sample.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/models/inheritance.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/controllers/.gitignore",
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/data/.gitignore",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.last-run",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.merged-ca-bundle",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.user-ca-bundle",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/security/ir_rule.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/models/exercise_extended_model.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/security/ir_model_access.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/exercise_inherited_model.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/security/ir_model_access.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/__openerp__.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/exercise_delegated_model.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/exercise_extended_model.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/i18n/es.po",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/demo/exercise_extended_model.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/demo/exercise_delegated_model.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/demo/exercise_inherited_model.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/views/exercise_extended_model.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/exercise_extended_model.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/models/__init__.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/__init__.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/__openerp__.py",
+		"/D/PORTABLES/App_Paths.bat",
+		"/D/PORTABLES/haroopad/App_Path.reg",
+		"/C/Users/Jorge/Desktop/App_Paths.bat",
+		"/D/PORTABLES/App_Path.reg",
+		"/D/TRABAJO/ODOO/instances/30089/openerp-server.conf",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/views/menu_odoo_inheritance_exercise.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/menu_odoo_inheritance_exercise.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/ir_module_module.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/views/ir_module_module.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/ir_module_category.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-technical-reporting/technical_reporting/views/ir_module_module.xml",
+		"/D/TRABAJO/PROYECTOS/Forbe Multimedia SL/anubia_support/views/ir_module_module.xml",
+		"/D/TRABAJO/ODOO/shortcuts.cmd",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/views/exercise_delegated_model.xml",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/ir.actions.act_window.view-v8.sublime-snippet",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/views/exercise_inherited_model.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/models/exercise_delegated_model.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/models/exercise_extended_model.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/models/exercise_inherited_model.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/security/ir_rule.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/i18n/gl_ES.mo",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/security/res_groups.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/security/res_groups.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_inherited_model.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/menu_odoo_security_exercise.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/models/exercise_delegated_model.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_delegated_model.xml",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Many2one-v8.sublime-snippet",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Many2many-v8.sublime-snippet",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.One2many-v8.sublime-snippet",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_extended_model.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/models/exercise_inherited_model.py",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/record-v8.sublime-snippet",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Date-v8.sublime-snippet",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Datetime-v8.sublime-snippet",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Selection-v8.sublime-snippet",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Text-v8.sublime-snippet",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Char-v8.sublime-snippet",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Boolean-v8.sublime-snippet",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Float-v8.sublime-snippet",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Html-v8.sublime-snippet",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Integer-v8.sublime-snippet",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_delegated_model.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_inherited_model.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_extended_model.py",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_base_model.xml",
+		"/D/DESARROLLO/sublime-odoo-snippets/Sublime-OpenERP/Common/xml/Objects/ir.model.access-v8.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/Sublime-OpenERP/Common/xml/Objects/ir.rule-v8.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/Sublime-OpenERP/Common/xml/Objects/ir.model-v8.sublime-snippet",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/exercise_base_model.xml",
+		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/models/trying_relationships.py",
+		"/D/TRABAJO/SSH RSA/public.txt",
+		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/jorge/id_rsa.pub",
+		"/D/TRABAJO/SSH RSA/ssh.com.txt",
+		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/anubia__dell_inspiron1720/id_rsa.pub",
+		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/anubia__innobo/id_rsa.pub",
+		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/chesu/id_rsa.pub",
+		"/C/Users/Jorge/Desktop/Nueva carpeta/public.txt",
+		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/dlsuarez/dlsuarez.pub"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"D:\\DESARROLLO\\Odoo_Modules\\odoo-module-scaffolding-project",
+			"D:\\DESARROLLO\\Odoo_Modules\\odoo-security-exercise\\odoo_security_exercise",
+			"<open files>",
+			"D:\\TRABAJO\\ODOO\\instances\\30080,*.xml",
+			"d:\\trabajo\\odoo\\instances\\30080\\*.xml"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"==",
+			">>>",
+			"enterp",
+			"í",
+			"[áéíóúÁÉÍÓÚñÑÜü]",
+			",(4, ref('anubia_help_desk'))",
+			"securi",
+			"True",
+			"id=\"",
+			"exercise_inheritance_exercise",
+			"id=\"",
+			"inheritance",
+			"Anubia",
+			"security",
+			"Security",
+			"security",
+			"buy",
+			"Buy",
+			"buy",
+			"exercise(.)extended.model",
+			"exercise.extended.model",
+			"extercise",
+			"\\n{3,}",
+			"\\n{2,}",
+			"third_name",
+			"second_name",
+			"middle_name",
+			"second_name",
+			"interval=\"([^\"]+)\"",
+			"attrs=\"([^\"]+)\"",
+			"attrs\nattrs=\"([^\"]+)\"",
+			"operator=\"([^\"]+)\"",
+			"widget=\"([^\"]+)\"",
+			"widget=\"[^\"]+\"",
+			"widget\nwidget=\"[^\"]+\"",
+			"class=\"oe_[^\"]+\"",
+			"surname",
+			"base",
+			"Extended",
+			"base",
+			"_extended_",
+			"\\.extended\\.",
+			".extended.",
+			"base",
+			"\\.base\\.",
+			"base",
+			"Base",
+			"_base_",
+			"T",
+			"on_write",
+			"name=",
+			"position",
+			"fonts=.[^\"':]+.",
+			"colors=\"[^:\"]+.",
+			"type==",
+			":[^=]+==.[^'\");\\]]+",
+			"state ?== ?.[^'\"]+",
+			"colors=\"[^\"]+\"",
+			"toolbar=\"[^\"]+\"",
+			"editable=\"[^\"]+\"",
+			"on_[^w]",
+			"=\"[^\"]+\"",
+			"=",
+			"[\\r\\n]+",
+			"=",
+			"[^a-zA-Z0-9=\\n ]",
+			"=\"[^\"]+\"",
+			" [^= ]+=",
+			"\"",
+			"\"([^\"]?)",
+			"base",
+			"'",
+			">\n",
+			"im_odoo_support",
+			"im_technical_support",
+			"im_odoo_support",
+			"odoo_o_small",
+			"odoo_support_contact",
+			"im_odoo_support/",
+			"(_(error|info|debug|warn)\\()'",
+			"(_(error,info,debug,warn)\\()'",
+			"(_warn\\()'",
+			"(_warn\\()\"",
+			"_get_value",
+			"\\.info",
+			"_print_message",
+			"_(debug|info|warn|error)",
+			"_(debug|info|warn)",
+			"VerboseEvent",
+			"BaseClass",
+			"verbose",
+			"_verbose",
+			"boolean",
+			"write",
+			"_verbose",
+			"delete",
+			"es",
+			"po",
+			"base",
+			"restrict_db_mgr",
+			"simplejson",
+			" +",
+			"30080",
+			"\\t",
+			"word_wrap",
+			"sublimelinter",
+			"default_encoding = sys.getdefaultencoding()"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"i",
+			"",
+			"False",
+			"id=\"odoo_inheritance_exercise.",
+			"id=\"odoo_inheritance_exercise",
+			"odoo_inheritance_exercise",
+			"id=\"exercise_inheritance_exercise.",
+			"security",
+			"inheritance",
+			"purchase",
+			"Purchase",
+			"purchase",
+			"exercise\\1base\\1model",
+			"exercise.base.model",
+			"exercise",
+			"\\n\\n",
+			"\\n",
+			"last_name",
+			"middle_name",
+			"\\1",
+			"Inherited",
+			"_inherited_",
+			"_.inherited_",
+			"\\.inherited\\.",
+			"\\.extended\\.",
+			"Extended",
+			"_extended_",
+			"\\n",
+			"=",
+			"'",
+			"'\\1",
+			"\"",
+			"$1u'",
+			"$1u",
+			"bool",
+			"\\t",
+			"30089",
+			"    "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "sublime-odoo-snippets.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\TRABAJO\\PROYECTOS\\Forbe Multimedia SL\\project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
