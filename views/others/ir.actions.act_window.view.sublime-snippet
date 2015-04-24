@@ -10,4 +10,5 @@
 ]]></content>
     <tabTrigger>ir.actions.act_window.view</tabTrigger>
     <scope>text.xml</scope>
+    <description>Common ir.actions.act_window.view record definition</description>
 </snippet>

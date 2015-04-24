@@ -1,8 +1,6 @@
 <snippet>
     <content><![CDATA[
-<snippet>
-    <content><![CDATA[
-<record model="ir.actions.todo" id="${1:action_todo_${8:${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}}}">
+<record model="ir.actions.todo" id="action_todo_${8:${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}}">
     <field name="name">${1:Human readable name}</field>
     <field name="type">${2:manual}</field>
     <field name="sequence" eval="${3:10}" />
@@ -12,10 +10,9 @@
     <field name="note">${7:text}</field>${0}
 </record>
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <!-- <tabTrigger>hello</tabTrigger> -->
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <!-- <scope>source.python</scope> -->
+    <tabTrigger>ir.actions.todo</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Common ir.actions.todo record definition</description>
 </snippet>
 
 <!--

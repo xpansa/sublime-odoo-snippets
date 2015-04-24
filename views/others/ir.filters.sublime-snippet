@@ -12,4 +12,5 @@
 ]]></content>
     <tabTrigger>ir.filters</tabTrigger>
     <scope>text.xml</scope>
+    <description>Common ir.filters record definition</description>
 </snippet>

@@ -40,7 +40,7 @@
 			"settings":
 			{
 				"buffer_size": 1186,
-				"line_ending": "Windows"
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -59,6 +59,10 @@
 		[
 			[
 				"Package Control: upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: up",
 				"Package Control: Upgrade Package"
 			],
 			[
@@ -87,10 +91,6 @@
 			],
 			[
 				"Package Control: upa",
-				"Package Control: Upgrade Package"
-			],
-			[
-				"Package Control: up",
 				"Package Control: Upgrade Package"
 			],
 			[
