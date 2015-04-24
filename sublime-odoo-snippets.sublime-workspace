@@ -35,40 +35,17 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "<snippet>\n    <content><![CDATA[\nattrs=\"{${1:'invisible':[('','','')], }${2:'readonly':[('','','')], }${3:'required':[('','','')]}}\"${0}\n]]></content>\n    <tabTrigger>attrs</tabTrigger>\n    <scope>text.xml</scope>\n</snippet>\n",
-			"file": "views/ir.ui.view-attrs.sublime-snippet",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 225,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "views/ir.ui.view.sublime-snippet",
-			"settings":
-			{
-				"buffer_size": 951,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "__openerp__base.sublime-snippet",
-			"settings":
-			{
-				"buffer_size": 533,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 104.0,
 		"selected_items":
 		[
+			[
+				"Package Control: upda",
+				"Package Control: Upgrade Package"
+			],
 			[
 				"Package Control: ad",
 				"Package Control: Add Repository"
@@ -88,10 +65,6 @@
 			[
 				"Package Control: remo",
 				"Package Control: Remove Package"
-			],
-			[
-				"Package Control: upda",
-				"Package Control: Upgrade Package"
 			],
 			[
 				"Package Control: ",
@@ -168,27 +141,27 @@
 	"expanded_folders":
 	[
 		"/D/DESARROLLO/sublime-odoo-snippets",
-		"/D/DESARROLLO/sublime-odoo-snippets/data",
-		"/D/DESARROLLO/sublime-odoo-snippets/models",
 		"/D/DESARROLLO/sublime-odoo-snippets/models/attributes",
 		"/D/DESARROLLO/sublime-odoo-snippets/models/fields",
 		"/D/DESARROLLO/sublime-odoo-snippets/models/methods",
-		"/D/DESARROLLO/sublime-odoo-snippets/security",
-		"/D/DESARROLLO/sublime-odoo-snippets/static",
 		"/D/DESARROLLO/sublime-odoo-snippets/views",
 		"/D/DESARROLLO/sublime-odoo-snippets/views/fields"
 	],
 	"file_history":
 	[
+		"/D/DESARROLLO/sublime-odoo-snippets/.gitmessage",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-form.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-xpath.sublime-snippet",
-		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-search-filter.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-search.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-graph.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/views/ir-ui.view-tree.sublime-snippet",
-		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-form.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/__openerp__base.sublime-snippet",
+		"/D/DESARROLLO/odoo-development/scaffolds/common_scaffolding/__openerp__.py",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-attrs.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-search-filter.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-form-oe_chatter.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-field-attrs.sublime-snippet",
-		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-attrs.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.Text.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.Selection.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.One2many.sublime-snippet",
@@ -229,7 +202,6 @@
 		"/D/DESARROLLO/sublime-odoo-snippets/data/product.product.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/data/product.template.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-binary.sublime-snippet",
-		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/models/attributes/field_attribute-default.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/models/attributes/field_attribute-search.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/models/attributes/field_attribute-track_visibility.sublime-snippet",
@@ -256,14 +228,12 @@
 		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.last-run",
 		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
 		"/D/DESARROLLO/sublime-odoo-snippets/README.md",
-		"/D/DESARROLLO/sublime-odoo-snippets/.gitmessage",
 		"/D/DESARROLLO/sublime-odoo-snippets/models/openerp-v8-sublime-snippet",
 		"/D/TRABAJO/PROYECTOS/Forbe Multimedia SL/forbe_multimedia_sl/models/crm_ticket_crm_lead.py",
 		"/D/DESARROLLO/odoo-development/exercises/odoo_inheritance_exercise/models/exercise_base_model.py",
 		"/D/DESARROLLO/odoo-development/modules/development_tools/models/report_groups_implied.py",
 		"/D/DESARROLLO/odoo-development/modules/development_tools/models/__init__.py",
 		"/D/DESARROLLO/sublime-odoo-snippets/.gitignore",
-		"/D/DESARROLLO/sublime-odoo-snippets/__openerp__base.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/base-xml-openerp.sublime-snippet",
 		"/D/DESARROLLO/__sublime-odoo-snippets/Sublime-OpenERP/Models/model_function-create.sublime-snippet",
 		"/D/DESARROLLO/Odoo_Modules/odoo-technical-reporting/development_tools/demo/res_groups.xml",
@@ -306,8 +276,7 @@
 		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/security/ir.rule.xml",
 		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/views/ir.ui.menu.xml",
 		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/views/sample.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/models/inheritance.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/controllers/.gitignore"
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/models/inheritance.py"
 	],
 	"find":
 	{
@@ -504,95 +473,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "views/ir.ui.view-attrs.sublime-snippet",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 225,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "views/ir.ui.view.sublime-snippet",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 951,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								683,
-								683
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "__openerp__base.sublime-snippet",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 533,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								507,
-								507
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
