@@ -63,7 +63,6 @@ The scripts listed below can be used only in Python files:
 #### Models
 
 - **models.Model**: adds a basic model declaration.
-- **models.Model**: adds a non autocreated model declaration.
 
 #### Model overwrittten methods
 
