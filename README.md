@@ -42,9 +42,9 @@ The scripts listed below can be used only in Python files:
 - **fields-Datetime**: adds a fields.Datetime declaration
 - **fields-Float**: adds a fields.Float declaration
 - **fields-Html**: adds a fields.Html declaration
-- **fields-M2m**: adds a fields.M2m declaration
-- **fields-M2o**: adds a fields.M2o declaration
-- **fields-O2m**: adds a fields.O2m declaration
+- **fields-Many2many**: adds a fields.M2m declaration
+- **fields-Many2one**: adds a fields.M2o declaration
+- **fields-One2many**: adds a fields.O2m declaration
 - **fields-Reference**: adds a fields.Reference declaration
 - **fields-Selection**: adds a fields.Selection declaration
 - **fields-Text**: adds a fields.Text declaration
@@ -88,9 +88,9 @@ The scripts listed below can be used only in XML files:
 - **fields-Datetime**: adds a fields.Datetime declaration
 - **fields-Float**: adds a fields.Float declaration
 - **fields-Html**: adds a fields.Html declaration
-- **fields-M2m**: adds a fields.M2m declaration
-- **fields-M2o**: adds a fields.M2o declaration
-- **fields-O2m**: adds a fields.O2m declaration
+- **fields-Many2many**: adds a fields.M2m declaration
+- **fields-Many2one**: adds a fields.M2o declaration
+- **fields-One2many**: adds a fields.O2m declaration
 - **fields-Reference**: adds a fields.Reference declaration
 - **fields-Selection**: adds a fields.Selection declaration
 - **fields-Text**: adds a fields.Text declaration
