@@ -35,6 +35,21 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "views/others/ir.actions.todo.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 1186,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -119,7 +134,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 496.0
 	},
 	"console":
 	{
@@ -141,11 +156,8 @@
 	"expanded_folders":
 	[
 		"/D/DESARROLLO/sublime-odoo-snippets",
-		"/D/DESARROLLO/sublime-odoo-snippets/models/attributes",
-		"/D/DESARROLLO/sublime-odoo-snippets/models/fields",
-		"/D/DESARROLLO/sublime-odoo-snippets/models/methods",
 		"/D/DESARROLLO/sublime-odoo-snippets/views",
-		"/D/DESARROLLO/sublime-odoo-snippets/views/fields"
+		"/D/DESARROLLO/sublime-odoo-snippets/views/others"
 	],
 	"file_history":
 	[
@@ -473,8 +485,65 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "views/others/ir.actions.todo.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								664,
+								669
+							]
+						],
+						"settings":
+						{
+							"default_extension": "sublime-snippet",
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
