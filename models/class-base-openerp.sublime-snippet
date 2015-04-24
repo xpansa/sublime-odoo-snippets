@@ -1,5 +1,3 @@
-<!-- OpenERP Python Snippets -->
-
 <snippet>
     <content><![CDATA[
 class ${1:ModelName}(models.Model):
@@ -25,11 +23,9 @@ class ${1:ModelName}(models.Model):
         help=False,
         size=50,
         translate=True
-    )
-
-    ${5}
+    )${0}
 ]]></content>
     <tabTrigger>models.Model</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP Class Generic Model</description>
+    <description>Odoo generic model class</description>
 </snippet>

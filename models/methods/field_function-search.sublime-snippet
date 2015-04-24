@@ -2,10 +2,9 @@
 	<content><![CDATA[
 @api.model
 def _search_${1: field}(self, operator, value):
-    return [('${2:related}', operator, value)]
+    return [('${2:related}', operator, value)]${0}
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>defsearch</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.python</scope>
+    <tabTrigger>defsearch</tabTrigger>
+    <scope>source.python</scope>
+    <description>Common search method signature</description>
 </snippet>

@@ -1,5 +1,3 @@
-<!-- OpenERP XML Snippets -->
-
 <snippet>
     <content><![CDATA[
 <?xml version="1.0" encoding="UTF-8"?>
@@ -10,9 +8,9 @@
         ${2}
 
     </data>
-</openerp>
+</openerp>${0}
 ]]></content>
     <tabTrigger>openerp</tabTrigger>
     <scope>text.xml</scope>
-    <description>OpenERP Base XML File</description>
+    <description>Odoo XML base file</description>
 </snippet>

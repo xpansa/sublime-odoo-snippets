@@ -12,12 +12,11 @@
     <field name="arch" type="xml">
         ${8}
     </field>
-</record>${9}
+</record>${0}
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ir.ui.view</tabTrigger> -->
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.xml</scope> -->
+    <tabTrigger>ir.ui.view</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Common ir.ui.view record definition</description>
 </snippet>
 
 <!--

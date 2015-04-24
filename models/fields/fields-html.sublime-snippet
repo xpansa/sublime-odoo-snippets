@@ -1,5 +1,3 @@
-<!-- OpenERP Python Snippets -->
-
 <snippet>
     <content><![CDATA[
 ${1:fldinln$TM_LINE_NUMBER} = fields.Html(
@@ -9,9 +7,9 @@ ${1:fldinln$TM_LINE_NUMBER} = fields.Html(
     index=${5:False},
     default=${6:None},
     help=${7:False}
-)
+)${0}
 ]]></content>
     <tabTrigger>fields.Html</tabTrigger>
     <scope>source.python</scope>
-    <description>html field (OERP)</description>
+    <description>Common definition for field type HTML</description>
 </snippet>

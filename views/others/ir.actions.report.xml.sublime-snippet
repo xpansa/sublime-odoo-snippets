@@ -17,9 +17,7 @@
     <field name="help">${13}</field>
 </record>${14}
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>ir.actions.report.xml</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.xml</scope>
 </snippet>
 

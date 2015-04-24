@@ -36,20 +36,43 @@
 	"buffers":
 	[
 		{
-			"contents": "",
+			"contents": "<snippet>\n    <content><![CDATA[\nattrs=\"{${1:'invisible':[('','','')], }${2:'readonly':[('','','')], }${3:'required':[('','','')]}}\"${0}\n]]></content>\n    <tabTrigger>attrs</tabTrigger>\n    <scope>text.xml</scope>\n</snippet>\n",
+			"file": "views/ir.ui.view-attrs.sublime-snippet",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 225,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/ir.ui.view.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 951,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "__openerp__base.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 533,
+				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 81.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"Package Control: ad",
+				"Package Control: Add Repository"
+			],
 			[
 				"Package Control: instal",
 				"Package Control: Install Package"
@@ -145,12 +168,101 @@
 	"expanded_folders":
 	[
 		"/D/DESARROLLO/sublime-odoo-snippets",
-		"/D/DESARROLLO/sublime-odoo-snippets/models"
+		"/D/DESARROLLO/sublime-odoo-snippets/data",
+		"/D/DESARROLLO/sublime-odoo-snippets/models",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/attributes",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/methods",
+		"/D/DESARROLLO/sublime-odoo-snippets/security",
+		"/D/DESARROLLO/sublime-odoo-snippets/static",
+		"/D/DESARROLLO/sublime-odoo-snippets/views",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/fields"
 	],
 	"file_history":
 	[
-		"/D/DESARROLLO/sublime-odoo-snippets/.gitignore",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-xpath.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-search-filter.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-search.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-graph.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir-ui.view-tree.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-form.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-form-oe_chatter.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-field-attrs.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view-attrs.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.Text.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.Selection.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.One2many.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.Many2one.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.Many2many.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.Integer.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.Html.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.Float.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.Datetime.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.Date.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.Char.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/fields/fields.Boolean.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/security/res.groups.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/security/ir.rule.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/security/ir.model.access.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/class-base-openerp.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/import-base-openerp.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/methods/field_function-compute.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/methods/field_function-onchange.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/methods/field_function-search.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/methods/method-copy-openerp.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/methods/method-create-openerp.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/methods/method-unlink-openerp.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/methods/method-write-openerp.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/base-python-openerp.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-text.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-selection.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-reference.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-o2m.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-m2o.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-m2m.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-html.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-float.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-datetime.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-date.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-char.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-boolean.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/data/product.product.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/data/product.template.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/fields/fields-binary.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/ir.ui.view.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/attributes/field_attribute-default.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/attributes/field_attribute-search.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/attributes/field_attribute-track_visibility.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/data/ir.model.data.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/data/ir.model.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/data/ir.module.category.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/data/base-xml-openerp.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/class-non-auto-openerp.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/others/object-menuitem.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/others/ir.actions.act_window.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/others/ir.actions.act_window.view.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/others/ir.actions.report.xml.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/others/ir.actions.server.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/others/ir.filters.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/others/ir.ui.menu.sublime-snippet",
+		"/D/DESARROLLO/sublime-odoo-snippets/views/others/record.sublime-snippet",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Local/Session.sublime_session",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Pylinter.sublime-settings",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.user-ca-bundle",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.system-ca-bundle",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.merged-ca-bundle",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.last-run",
+		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/D/DESARROLLO/sublime-odoo-snippets/README.md",
 		"/D/DESARROLLO/sublime-odoo-snippets/.gitmessage",
+		"/D/DESARROLLO/sublime-odoo-snippets/models/openerp-v8-sublime-snippet",
+		"/D/TRABAJO/PROYECTOS/Forbe Multimedia SL/forbe_multimedia_sl/models/crm_ticket_crm_lead.py",
+		"/D/DESARROLLO/odoo-development/exercises/odoo_inheritance_exercise/models/exercise_base_model.py",
+		"/D/DESARROLLO/odoo-development/modules/development_tools/models/report_groups_implied.py",
+		"/D/DESARROLLO/odoo-development/modules/development_tools/models/__init__.py",
+		"/D/DESARROLLO/sublime-odoo-snippets/.gitignore",
 		"/D/DESARROLLO/sublime-odoo-snippets/__openerp__base.sublime-snippet",
 		"/D/DESARROLLO/sublime-odoo-snippets/base-xml-openerp.sublime-snippet",
 		"/D/DESARROLLO/__sublime-odoo-snippets/Sublime-OpenERP/Models/model_function-create.sublime-snippet",
@@ -195,88 +307,7 @@
 		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/views/ir.ui.menu.xml",
 		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/views/sample.xml",
 		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/models/inheritance.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/controllers/.gitignore",
-		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/data/.gitignore",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Gist.sublime-settings",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.last-run",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.merged-ca-bundle",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.user-ca-bundle",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/security/ir_rule.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/models/exercise_extended_model.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/security/ir_model_access.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/exercise_inherited_model.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/security/ir_model_access.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/__openerp__.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/exercise_delegated_model.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/exercise_extended_model.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/i18n/es.po",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/demo/exercise_extended_model.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/demo/exercise_delegated_model.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/demo/exercise_inherited_model.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/views/exercise_extended_model.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/exercise_extended_model.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/models/__init__.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/__init__.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/__openerp__.py",
-		"/D/PORTABLES/App_Paths.bat",
-		"/D/PORTABLES/haroopad/App_Path.reg",
-		"/C/Users/Jorge/Desktop/App_Paths.bat",
-		"/D/PORTABLES/App_Path.reg",
-		"/D/TRABAJO/ODOO/instances/30089/openerp-server.conf",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/views/menu_odoo_inheritance_exercise.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/menu_odoo_inheritance_exercise.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/ir_module_module.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/views/ir_module_module.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/ir_module_category.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-technical-reporting/technical_reporting/views/ir_module_module.xml",
-		"/D/TRABAJO/PROYECTOS/Forbe Multimedia SL/anubia_support/views/ir_module_module.xml",
-		"/D/TRABAJO/ODOO/shortcuts.cmd",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/views/exercise_delegated_model.xml",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/ir.actions.act_window.view-v8.sublime-snippet",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/views/exercise_inherited_model.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/models/exercise_delegated_model.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/models/exercise_extended_model.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/models/exercise_inherited_model.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/security/ir_rule.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/i18n/gl_ES.mo",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/security/res_groups.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_inheritance_exercise/security/res_groups.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_inherited_model.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/menu_odoo_security_exercise.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/models/exercise_delegated_model.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_delegated_model.xml",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Many2one-v8.sublime-snippet",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Many2many-v8.sublime-snippet",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.One2many-v8.sublime-snippet",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_extended_model.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/models/exercise_inherited_model.py",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/record-v8.sublime-snippet",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Date-v8.sublime-snippet",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Datetime-v8.sublime-snippet",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Selection-v8.sublime-snippet",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Text-v8.sublime-snippet",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Char-v8.sublime-snippet",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Boolean-v8.sublime-snippet",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Float-v8.sublime-snippet",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Html-v8.sublime-snippet",
-		"/C/Users/Jorge/AppData/Roaming/Sublime Text 3/Packages/User/fields.Integer-v8.sublime-snippet",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_delegated_model.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_inherited_model.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_extended_model.py",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/data/exercise_base_model.xml",
-		"/D/DESARROLLO/sublime-odoo-snippets/Sublime-OpenERP/Common/xml/Objects/ir.model.access-v8.sublime-snippet",
-		"/D/DESARROLLO/sublime-odoo-snippets/Sublime-OpenERP/Common/xml/Objects/ir.rule-v8.sublime-snippet",
-		"/D/DESARROLLO/sublime-odoo-snippets/Sublime-OpenERP/Common/xml/Objects/ir.model-v8.sublime-snippet",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/views/exercise_base_model.xml",
-		"/D/DESARROLLO/Odoo_Modules/odoo-security-exercise/odoo_security_exercise/models/trying_relationships.py",
-		"/D/TRABAJO/SSH RSA/public.txt",
-		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/jorge/id_rsa.pub",
-		"/D/TRABAJO/SSH RSA/ssh.com.txt",
-		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/anubia__dell_inspiron1720/id_rsa.pub",
-		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/anubia__innobo/id_rsa.pub",
-		"/C/Users/Jorge/Desktop/Nueva carpeta/public_keys/chesu/id_rsa.pub"
+		"/D/DESARROLLO/Odoo_Modules/odoo-module-scaffolding-project/odoo_module_scaffolding/controllers/.gitignore"
 	],
 	"find":
 	{
@@ -287,6 +318,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"D:\\DESARROLLO\\sublime-odoo-snippets",
 			"D:\\DESARROLLO\\Odoo_Modules\\odoo-module-scaffolding-project",
 			"D:\\DESARROLLO\\Odoo_Modules\\odoo-security-exercise\\odoo_security_exercise",
 			"<open files>",
@@ -299,6 +331,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" *<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->\\n",
+			" *<!-- Optional: Set a scope to limit where the snippet will trigger -->\\n",
+			"(#+)",
+			"(-...fields-([^*]+)\\*\\*: )",
+			".sublime-snippet",
+			"D:\\DESARROLLO\\sublime-odoo-snippets\\",
+			"D:\\DESARROLLO\\sublime-odoo-snippets",
 			"==",
 			">>>",
 			"enterp",
@@ -413,6 +452,10 @@
 		"regex": true,
 		"replace_history":
 		[
+			"",
+			"#\\1",
+			"\\1adds a fields.\\2 declaration",
+			"",
 			"i",
 			"",
 			"False",
@@ -461,15 +504,16 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "views/ir.ui.view-attrs.sublime-snippet",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 225,
 						"regions":
 						{
 						},
@@ -482,7 +526,65 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/ir.ui.view.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								683,
+								683
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "__openerp__base.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 533,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								507,
+								507
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -550,7 +652,7 @@
 		[
 			[
 				"",
-				"D:\\DESARROLLO\\Odoo_Modules\\odoo-module-scaffolding-project\\odoo_module_scaffolding.sublime-workspace"
+				"D:\\TRABAJO\\PROYECTOS\\Forbe Multimedia SL\\forbe_multimedia_sl.sublime-project"
 			]
 		],
 		"width": 380.0

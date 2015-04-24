@@ -8,10 +8,9 @@
     <field name="date_update" eval="${5:time.strftime('%Y-%m-%d %H:%M:%S')}" />
     <field name="res_id" eval="${6:1}" />
     <field name="noupdate" eval="${7:True}" />
-</record>
+</record>${0}
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>ir.model.data</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.xml</scope>
+    <description>XML ir.model.data record</description>
 </snippet>

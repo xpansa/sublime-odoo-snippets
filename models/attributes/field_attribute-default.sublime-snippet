@@ -1,10 +1,8 @@
-<!-- OpenERP Python Snippets -->
-
 <snippet>
     <content><![CDATA[
-default=lambda self: self._default_${1:field}(${2})
+default=lambda self: self._default_${1:field}()${0}
 ]]></content>
     <tabTrigger>default</tabTrigger>
     <scope>source.python</scope>
-    <description>translate attribute (OERP)</description>
+    <description>Field attribute: search, lambda function</description>
 </snippet>

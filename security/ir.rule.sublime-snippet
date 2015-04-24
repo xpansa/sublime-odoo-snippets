@@ -10,10 +10,9 @@
     <field name="perm_unlink" eval="${8:True}" />
     <field name="domain_force">${9:['|',('company_id','=',False),('company_id','child_of',[user.company_id.id])]}</field>
     <field name="active" eval="${10:True}" />
-</record>
+</record>${0}
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>ir.rule</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.xml</scope>
+    <description>XML ir.rule record</description>
 </snippet>

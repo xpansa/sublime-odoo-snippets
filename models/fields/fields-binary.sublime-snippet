@@ -1,5 +1,3 @@
-<!-- OpenERP Python Snippets -->
-
 <snippet>
     <content><![CDATA[
 ${1:fldinln$TM_LINE_NUMBER} = fields.Binary(
@@ -9,9 +7,9 @@ ${1:fldinln$TM_LINE_NUMBER} = fields.Binary(
     index=${5:False},
     default=${6:0},
     help=${7:False}
-)
+)${0}
 ]]></content>
     <tabTrigger>fields.Binary</tabTrigger>
     <scope>source.python</scope>
-    <description>binary field (OERP)</description>
+    <description>Common definition for field type Binary</description>
 </snippet>

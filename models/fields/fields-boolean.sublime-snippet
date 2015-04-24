@@ -1,5 +1,3 @@
-<!-- OpenERP Python Snippets -->
-
 <snippet>
     <content><![CDATA[
 ${1:fldinln$TM_LINE_NUMBER} = fields.Boolean(
@@ -9,9 +7,9 @@ ${1:fldinln$TM_LINE_NUMBER} = fields.Boolean(
     index=${5:False},
     default=${6:False},
     help=${7:False}
-)
+)${0}
 ]]></content>
     <tabTrigger>fields.Boolean</tabTrigger>
     <scope>source.python</scope>
-    <description>boolean field (OERP)</description>
+    <description>Common definition for field type Boolean</description>
 </snippet>

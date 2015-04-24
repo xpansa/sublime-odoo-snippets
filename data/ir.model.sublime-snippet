@@ -5,10 +5,9 @@
     <field name="name">${2:Human readable name}</field>
     <field name="state">${3:Base | Manual}</field>
     <field name="info">${4:Description}</field>
-</record>
+</record>${0}
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>ir.model</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.xml</scope>
+    <description>XML ir.model record</description>
 </snippet>

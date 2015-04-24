@@ -15,10 +15,9 @@
 ${13:    <field name="image" type="base64" file="${12:module_name/static/img/file_name.png}"/>
 }${15:    <field name="default_code">${14:PRODUCT-CODE}</field>
 }${17:    <field name="ean13">${16:0000000000000}</field>
-}</record>
+}</record>${0}
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>product.template</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.xml</scope>
+    <description>XML product.template record</description>
 </snippet>

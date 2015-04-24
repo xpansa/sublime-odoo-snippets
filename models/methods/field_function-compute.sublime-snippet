@@ -4,10 +4,9 @@
 @api.depends('${1:depends}')
 def _compute_${2:field}(self):
     for record in self:
-        record.${2:field} = ${3:something}
+        record.${2:field} = ${3:something}${0}
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>defcompute</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.python</scope>
+    <tabTrigger>defcompute</tabTrigger>
+    <scope>source.python</scope>
+    <description>Common compute method signature</description>
 </snippet>

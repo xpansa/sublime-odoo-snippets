@@ -1,5 +1,3 @@
-<!-- OpenERP Python Snippets -->
-
 <snippet>
     <content><![CDATA[
 ${1:fldinln$TM_LINE_NUMBER} = fields.Many2many(
@@ -16,9 +14,9 @@ ${1:fldinln$TM_LINE_NUMBER} = fields.Many2many(
     domain=[${12}],
     context=\{${13}\},
     limit=${14:None}
-)
+)${0}
 ]]></content>
     <tabTrigger>fields.Many2many</tabTrigger>
     <scope>source.python</scope>
-    <description>m2m field (OERP)</description>
+    <description>Common definition for field type Many2many</description>
 </snippet>

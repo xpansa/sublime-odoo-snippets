@@ -8,10 +8,9 @@ ${1:fldinln$TM_LINE_NUMBER} = fields.Selection(
     default=${6:0},
     help=${7:False},
     selection=[('${8:valor1}', '${9:${8/(.)(.+)/\u$1$2/g}}'), ('${10:valor2}', '${11:${10/(.)(.+)/\u$1$2/g}}')]
-)
+)${0}
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>fields.Selection</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.python</scope>
+    <description>Common definition for field type Seleccion</description>
 </snippet>

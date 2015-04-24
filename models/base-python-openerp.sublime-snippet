@@ -1,5 +1,3 @@
-<!-- OpenERP Python Snippets -->
-
 <snippet>
     <content><![CDATA[
 # -*- coding: utf-8 -*-
@@ -20,6 +18,6 @@ _logger = getLogger(__name__)
 ]]></content>
     <tabTrigger>openerp</tabTrigger>
     <scope>source.python</scope>
-    <description>OpenERP base Python file</description>
+    <description>Odoo Python base file</description>
 </snippet>
 

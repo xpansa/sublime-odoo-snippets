@@ -1,5 +1,3 @@
-<!-- OpenERP Python Snippets -->
-
 <snippet>
     <content><![CDATA[
 @api.model
@@ -11,9 +9,9 @@ def create(self, values):
         @return: returns a id of new record
     """
 
-    return super(${1:Model_Name}, self).create(values)
+    return super(${1:Model_Name}, self).create(values)${0}
 ]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
-    <description>Method create Odoo</description>
+    <description>Common create method signature</description>
 </snippet>

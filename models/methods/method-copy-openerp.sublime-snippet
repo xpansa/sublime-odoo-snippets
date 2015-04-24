@@ -1,5 +1,3 @@
-<!-- OpenERP Python Snippets -->
-
 <snippet>
     <content><![CDATA[
 @api.one
@@ -12,8 +10,9 @@ def copy(self, default=None):
         @return: returns a id of newly created record
     """
 
-    return super(${1:ModelName}, self).copy(default)]]></content>
+    return super(${1:ModelName}, self).copy(default)${0}
+]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
-    <description>Method copy Odoo</description>
+    <description>Common copy method signature</description>
 </snippet>

@@ -1,5 +1,3 @@
-<!-- OpenERP Python Snippets -->
-
 <snippet>
     <content><![CDATA[
 ${1:fldinln$TM_LINE_NUMBER} = fields.Char(
@@ -11,9 +9,9 @@ ${1:fldinln$TM_LINE_NUMBER} = fields.Char(
     help=${7:False},
     size=${8:50},
     translate=${9:True}
-)
+)${0}
 ]]></content>
     <tabTrigger>fields.Char</tabTrigger>
     <scope>source.python</scope>
-    <description>char field (OERP)</description>
+    <description>Common definition for field type Char</description>
 </snippet>

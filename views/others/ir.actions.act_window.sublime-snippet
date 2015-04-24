@@ -14,10 +14,8 @@
     <field name="search_view_id" ref="${11}" />
 </record>${12}
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ir.actions.act_window</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.xml</scope>
+		<tabTrigger>ir.actions.act_window</tabTrigger>
+		<scope>text.xml</scope>
 </snippet>
 
 <!--

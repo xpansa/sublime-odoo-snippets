@@ -1,5 +1,3 @@
-<!-- OpenERP Python Snippets -->
-
 <snippet>
     <content><![CDATA[
 ${1:fldinln$TM_LINE_NUMBER} = fields.Many2one(
@@ -14,9 +12,9 @@ ${1:fldinln$TM_LINE_NUMBER} = fields.Many2one(
     context=\{${10}\},
     ondelete='${11:cascade}',
     auto_join=${12:False}
-)
+)${0}
 ]]></content>
     <tabTrigger>fields.Many2one</tabTrigger>
     <scope>source.python</scope>
-    <description>m2o field (OERP)</description>
+    <description>Common definition for field type Many2one</description>
 </snippet>
