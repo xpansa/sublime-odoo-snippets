@@ -66,7 +66,7 @@ ${4}
     ],
 
     'installable': True
-}
+}${0}
 ]]></content>
     <tabTrigger>__openerp__</tabTrigger>
     <scope>source.python</scope>

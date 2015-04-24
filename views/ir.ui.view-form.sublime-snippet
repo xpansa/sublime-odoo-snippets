@@ -6,12 +6,13 @@
             <label for="${5:name}" class="oe_edit_only"/>
             <h1><field name="${5}" placeholder="${7:Describe the item...}"/></h1>
         </div>
+        ${0}
     </sheet>
     <div class="oe_chatter">
         <field name="message_follower_ids" widget="mail_followers"/>
         <field name="message_ids" widget="mail_thread"/>
     </div>
-</form>${0}
+</form>
 ]]></content>
     <tabTrigger>form</tabTrigger>
     <scope>text.xml</scope>

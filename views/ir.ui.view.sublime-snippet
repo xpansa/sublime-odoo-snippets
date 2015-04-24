@@ -10,9 +10,9 @@
     <field name="active" eval="${6:True}" />
 	<field name="inherit_id" ref="${7:xml_id}" />
     <field name="arch" type="xml">
-        ${8}
+        ${0}
     </field>
-</record>${0}
+</record>
 ]]></content>
     <tabTrigger>ir.ui.view</tabTrigger>
     <scope>text.xml</scope>

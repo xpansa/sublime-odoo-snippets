@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 <search string="${1:Name}">
-    ${2}
-</search>${0}
+    ${0}
+</search>
 ]]></content>
     <tabTrigger>search</tabTrigger>
     <scope>text.xml</scope>

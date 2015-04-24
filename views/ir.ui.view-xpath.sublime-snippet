@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 <xpath expr="${1://field[@name='name']}" position="${2:after}">
-    ${3}
-</xpath>${0}
+    ${0}
+</xpath>
 ]]></content>
     <tabTrigger>xpath</tabTrigger>
     <scope>text.xml</scope>
