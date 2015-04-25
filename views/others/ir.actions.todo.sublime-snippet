@@ -7,7 +7,7 @@
     <field name="state">${4:open}</field>
     <field name="action_id" ref="${5:ir.actions.actions}" />
     <field name="groups_id" eval="[(4, ref('${6:res.groups}'))]" />
-    <field name="note">${7:text}</field>${0}
+    <field name="note">${7:Something about ${1}}</field>${0}
 </record>
 ]]></content>
     <tabTrigger>ir.actions.todo</tabTrigger>

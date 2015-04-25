@@ -14,7 +14,7 @@ from logging import getLogger
 _logger = getLogger(__name__)
 
 
-{0}
+${0}
 ]]></content>
     <tabTrigger>openerp</tabTrigger>
     <scope>source.python</scope>
