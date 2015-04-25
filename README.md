@@ -136,3 +136,25 @@ views\others\ir.ui.menu.sublime-snippet
 views\others\object-button.sublime-snippet
 views\others\object-menuitem.sublime-snippet
 views\others\record.sublime-snippet
+
+## Commands
+
+Project has a Python file with some useful utilities to work in Odoo code files, these are follo
+
+### dashes
+
+When a Python code file is too long, reorder the code in blocks divided by horizontal rules makes more easy read them.
+
+This command replaces selection by a dashed line with selected text in center. The result is like the following:
+
+```python
+    # ------------------------------- PRUEBA ----------------------------------
+```
+
+- Line starts at the selection beginning and ends in the column 79.
+- Text will have two spaces, one before and another after.
+- If there is not selected text when command is invoked, line will be printed without any text.
+
+### finddashes
+
+Once the Python code file has been divided by horizoantal rules, will be very useful to jump to the next line of dashes. This command does just that.
