@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+${1:model}_domain = [${2:('id', '=', 1)}]
+${1}_obj = self.env['${3:model.name}']
+${1}_set = ${1}_obj.search(${1}_domain)
+${0}
+]]></content>
+    <tabTrigger>modelsearch</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

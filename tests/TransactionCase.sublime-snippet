@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+from openerp.tests.common import TransactionCase
+
+
+class ${1:ModelName}(TransactionCase):
+    """ ${2:This class contains the unit tests for '${1/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}'.}
+
+        Tests:
+          - ${3}: Checks if the ${3} works properly
+    """
+
+    def setUp(self):
+        super(${1}, self).setUp()
+
+    def test_${3:item_name}(self):
+        """ Checks if the ${3} works properly """
+
+        ${0:pass}
+]]></content>
+    <tabTrigger>TransactionCase</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
