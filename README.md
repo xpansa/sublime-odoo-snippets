@@ -63,6 +63,8 @@ The scripts listed below can be used only in Python files:
 #### Models
 
 - **models.Model**: adds a basic model declaration.
+- **modelsearch**: adds a common code to search records from given model
+- **modelbrowse**: adds a common code to search records from given model
 
 #### Model overwrittten methods
 
@@ -70,6 +72,10 @@ The scripts listed below can be used only in Python files:
 - **defwrite**: adds a basic overwrite declaration for write method.
 - **defunlink**: adds a basic overwrite declaration for unlink method.
 - **defcopy**: adds a basic overwrite declaration for copy method.
+
+#### Test
+
+- **TransactionCase**: add a Transaction case inherited class
 
 ### XML
 
