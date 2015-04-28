@@ -33,6 +33,14 @@ The scripts listed below can be used only in Python files:
 - **openerp**: adds a basic file header and most used python imports
 - **\_\_openerp\_\_**: adds a manifest file dictionary
 
+#### Models
+
+- **_inherit**: adds an _inherit attribute with a single element list.
+- **_inherits**: adds an _inherits attribute with a single relationship.
+- **models.Model**: adds a basic model declaration.
+- **modelsearch**: adds a common code to search records from given model
+- **modelbrowse**: adds a common code to search records from given model
+
 #### Field declarations
 
 - **fields-Binary**: adds a fields.Binary declaration
@@ -59,12 +67,6 @@ The scripts listed below can be used only in Python files:
 - **defcompute**: adds a basic compute method declaration.
 - **defonchange**: adds a basic onchange method declaration.
 - **defsearch**: adds a basic search method declaration.
-
-#### Models
-
-- **models.Model**: adds a basic model declaration.
-- **modelsearch**: adds a common code to search records from given model
-- **modelbrowse**: adds a common code to search records from given model
 
 #### Model overwrittten methods
 
@@ -132,6 +134,7 @@ The scripts listed below can be used only in XML files:
 - **ir.module.category**: adds XML record with model attribute set to *ir.module.category*
 - **product.product**: adds XML record with model attribute set to *product.product*
 - **product.template**: adds XML record with model attribute set to *product.template*
+- **email.template**: adds an email template XML definition.
 
 #### Others (undocumented)
 

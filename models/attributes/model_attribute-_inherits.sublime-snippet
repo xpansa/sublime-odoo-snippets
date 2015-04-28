@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+_inherits = {'${1:ir.model}': '${2:related_id}'}
+
+${2} = fields.Many2one(
+    string='${3:${2/(.)(.+)/\u$1$2/g}}',
+    required=True,
+    readonly=False,
+    index=${4:True},
+    default=${5:None},
+    help=${6:False},
+    comodel_name='${1}',
+    domain=[${7}],
+    context=\{${8}\},
+    ondelete='${9:cascade}',
+    auto_join=${10:False}
+)${0}
+]]></content>
+    <tabTrigger>_inherits</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
