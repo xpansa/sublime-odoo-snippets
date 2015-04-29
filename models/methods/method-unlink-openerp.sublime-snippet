@@ -13,7 +13,7 @@ def unlink(self):
 
     return super(${1:ModelName}, self).unlink()${0}
 ]]></content>
-    <tabTrigger>def</tabTrigger>
+    <tabTrigger>defunlink</tabTrigger>
     <scope>source.python</scope>
     <description>Common unlink method signature</description>
 </snippet>

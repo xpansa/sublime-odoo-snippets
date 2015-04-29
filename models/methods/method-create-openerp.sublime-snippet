@@ -11,7 +11,7 @@ def create(self, values):
 
     return super(${1:Model_Name}, self).create(values)${0}
 ]]></content>
-    <tabTrigger>def</tabTrigger>
+    <tabTrigger>defcreate</tabTrigger>
     <scope>source.python</scope>
     <description>Common create method signature</description>
 </snippet>

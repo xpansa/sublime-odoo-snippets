@@ -12,7 +12,7 @@ def copy(self, default=None):
 
     return super(${1:ModelName}, self).copy(default)${0}
 ]]></content>
-    <tabTrigger>def</tabTrigger>
+    <tabTrigger>defcopy</tabTrigger>
     <scope>source.python</scope>
     <description>Common copy method signature</description>
 </snippet>
