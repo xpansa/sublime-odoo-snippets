@@ -109,6 +109,7 @@ The scripts listed below can be used only in XML files:
 - **ir.actions.act_window.view**:  adds XML record with model attribute set to *ir.actions.act_window.view*
 - **ir.actions.report.xml**:  adds XML record with model attribute set to *ir.actions.report.xml*
 - **ir.actions.server**:  adds XML record with model attribute set to *ir.actions.server*
+- **ir.actions.todo**: adds XML record with model attribute set to *ir.actions.todo*
 
 #### Views
 
