@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<record model="ir.actions.report.xml" id="action_report_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}">
+<record id="action_report_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}" model="ir.actions.report.xml">
     <field name="name">${1:Name}</field>
     <field name="model">${2:mode.name}</field>
     <field name="report_type">${3:qweb-pdf}</field>

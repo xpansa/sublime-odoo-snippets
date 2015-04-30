@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<record model="res.groups" id="group_${8:${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}}">
+<record id="group_${8:${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}}" model="res.groups">
     <field name="name">${1:Name}</field>
     <field name="comment">${2:Comment}</field>
     <field name="category_id" ref="${3:base.module_category_administration}"/>

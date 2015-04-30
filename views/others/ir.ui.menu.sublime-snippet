@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<record model="ir.ui.menu" id="menu_${6:${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}}" >
+<record id="menu_${6:${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}}" model="ir.ui.menu" >
 	<field name="name">${1:Name}</field>
     <field name="action" ref="${2:action_name}" />
 	<field name="parent_id" ref="${3:base.menu_custom}" />

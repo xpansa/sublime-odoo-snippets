@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<record model="ir.actions.todo" id="action_todo_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}">
+<record id="action_todo_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}" model="ir.actions.todo">
     <field name="name">${1:Human readable name}</field>
     <field name="type">${2:manual}</field>
     <field name="state">${3:open}</field>
