@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[
+<record id="${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}" model="base.action.rule">
+    <field name="name">${1:Human readable name}</field>
+    <field name="act_user_id" ref="${2:base.user_root}" />
+    <field name="active" eval="${3:True}" />
+    <field name="sequence" eval="${4:0}" />
+    <field name="server_action_ids" eval="[(4, ref('${5:ir.actions.server}'))]" />
+    <field name="model_id" ref="${6:ir.model}" />
+    <field name="kind">${7:on_create_or_write}</field>
+    <field name="trg_date_id" ref="${8:ir.model.fields}" />
+    <field name="trg_date_range" eval="${9:0}" />
+    <field name="trg_date_range_type">${10:day}</field>${12:
+    <field name="trg_date_calendar_id" ref="${11:resource.calendar}" />}${14:
+    <field name="filter_id" ref="${13:ir.filters}" />}${16:
+    <field name="filter_pre_id" ref="${15:ir.filters}" />}${18:
+    <field name="act_followers" eval="[(4, ref('${17:res.partner}'))]" />}
+</record>${0}
+]]></content>
+    <tabTrigger>base.action.rule</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>
+
+<!--
+    'kind': fields.selection(
+            [('on_create', 'On Creation'),
+             ('on_write', 'On Update'),
+             ('on_create_or_write', 'On Creation & Update'),
+             ('on_time', 'Based on Timed Condition')],
+            string='When to Run'),
+-->

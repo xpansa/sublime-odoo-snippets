@@ -137,15 +137,21 @@ The scripts listed below can be used only in XML files:
 - **product.template**: adds XML record with model attribute set to *product.template*
 - **email.template**: adds an email template XML definition.
 
-#### Others (undocumented)
+#### Others
 
-data\ir.model.data.sublime-snippet
-data\ir.model.sublime-snippet
-views\others\ir.filters.sublime-snippet
-views\others\ir.ui.menu.sublime-snippet
-views\others\object-button.sublime-snippet
-views\others\object-menuitem.sublime-snippet
-views\others\record.sublime-snippet
+- **ir.values**: : adds XML record with model attribute set to *ir.values*
+- **base.action.rule**: adds XML record with model attribute set to *base.action.rule*
+- **id-reference**: adds an evaluable expresion to get a resource database id from XML
+
+#### Undocumented
+
+- data\ir.model.data.sublime-snippet
+- data\ir.model.sublime-snippet
+- views\others\ir.filters.sublime-snippet
+- views\others\ir.ui.menu.sublime-snippet
+- views\others\object-button.sublime-snippet
+- views\others\object-menuitem.sublime-snippet
+- views\others\record.sublime-snippet
 
 ## Commands
 
