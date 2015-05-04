@@ -7,15 +7,18 @@
     <field name="email_to">${4:\$\{object.name|safe\} <\$\{object.email|safe\}>}</field>
     <field name="email_cc">${5}</field>
     <field name="reply_to">${6}</field>
-    <field name="lang">${7:\$\{object.lang\}}</field>
-    <field name="auto_delete" eval="${8:True}" />
-    <field name="model_id" ref="${9:ir.model}" />
-    <field name="attachment_ids" eval="[(4, ref('${10:ir.attachment}'))]" />
+    <field name="user_signature" eval="${7:False}" />
+    <field name="lang">${8:\$\{object.lang\}}</field>
+    <field name="auto_delete" eval="${9:True}" />
+    <field name="model_id" ref="${10:ir.model}" />
+    <field name="attachment_ids" eval="[(4, ref('${11:ir.attachment}'))]" />
     <field name="body_html"><![CDATA[
-        ${11:<p>To whom it may concern:</p>}
+        ${12:<p>To whom it may concern:</p>}
 ]]${-1}></field>
 </record>${0}
 ]]></content>
     <tabTrigger>email.template</tabTrigger>
     <scope>text.xml</scope>
+    <description>Email template common fields</description>
 </snippet>
+
