@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<record id="module_category_${7:${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}}" model="ir.module.category">
+<record id="module_category_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}" model="ir.module.category">
     <field name="name">${1:Human readable name}</field>
     <field name="parent_id" ref="${2}" />
     <field name="description">${3}</field>

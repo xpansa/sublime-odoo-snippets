@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<record id="${8:${3/(\.+)/_/g}_${1/(\.+)/_/g}}" model="ir.model.data">
+<record id="${3/(\.+)/_/g}_${1/(\.+)/_/g}" model="ir.model.data">
     <field name="name">${1:resource_external_id}</field>
     <field name="model">${2:name.of.model}</field>
     <field name="module">${3:name_of_module}</field>

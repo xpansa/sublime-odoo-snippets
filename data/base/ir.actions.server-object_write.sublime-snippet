@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
-<record id="action_${9:${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}}_server" model="ir.actions.server">
+<record id="action_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_server" model="ir.actions.server">
     <field name="type">ir.actions.server</field>
     <field name="name">${1:Name}</field>
     <field name="model_id" ref="${2:ir.model}" />
     <field name="condition" eval="${3:True}" />
     <field name="sequence" eval="${4:5}" />
     <field name="context" eval="${5:\{\}}" />
-    <field name="use_write">${6:selection}</field>${8:
+    <field name="use_write">${6:current}</field>${8:
     <field name="crud_model_id" ref="${7:ir.model}" />}${10:
     <field name="ref_object">${9:reference}</field>}${12:
     <field name="fields_lines" eval="[(4, ref('${11:ir.server.object.lines}'))]" />}${14:

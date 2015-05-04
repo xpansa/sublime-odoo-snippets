@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<record id="action_${9:${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}}_server" model="ir.actions.server">
+<record id="action_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_server" model="ir.actions.server">
     <field name="type">ir.actions.server</field>
     <field name="name">${1:Name}</field>
     <field name="model_id" ref="${2:ir.model}" />
@@ -8,7 +8,7 @@
     <field name="sequence" eval="${4:5}" />
     <field name="context" eval="${5:\{\}}" />
     <field name="wkf_transition_id" ref="${6:workflow.transition}" />
-    <field name="use_relational_model">${7:selection}</field>${9:
+    <field name="use_relational_model">${7:base}</field>${9:
     <field name="wkf_model_id" ref="${8:ir.model}" />}${11:
     <field name="wkf_field_id" ref="${10:ir.model.fields}" />}
 </record>${0}
