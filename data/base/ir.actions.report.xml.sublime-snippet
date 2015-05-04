@@ -8,8 +8,8 @@
     <field name="attachment_use" eval="${5:True}" />
     <field name="attachment">${6:(object.name+'.pdf')}</field>
     <field name="paperformat_id" ref="${7:report.paperformat_euro}" />${9:
-    <field name="header" eval="${8:boolean}" />}${11:
-    <field name="help">${10:text}</field>}
+    <field name="header" eval="${8:True}" />}${11:
+    <field name="help">${10:Something about ${1}}</field>}
 </record>${0}
 ]]></content>
     <tabTrigger>ir.actions.report.xml</tabTrigger>
