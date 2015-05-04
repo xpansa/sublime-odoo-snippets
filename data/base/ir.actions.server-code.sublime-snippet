@@ -17,22 +17,6 @@
 
 
 
-    <field name="state">${25:selection}</field> -- Required
-    <field name="usage">${31:char}</field>
-    <field name="menu_ir_values_id" ref="${17:ir.values}" />
-    <field name="help">${12:text}</field>
-    <field name="id_value">${14:char}</field>
-    <field name="copyvalue">${5:char}</field>
-    <field name="id_object">${13:reference}</field>
-    <field name="model_object_field" ref="${20:ir.model.fields}" />
-    <field name="sub_object" ref="${27:ir.model}" />
-    <field name="sub_model_object_field" ref="${26:ir.model.fields}" />
-    <field name="subject">${28:char}</field>
-    <field name="email_from">${9:char}</field>
-    <field name="email_to">${10:char}</field>
-    <field name="partner_to">${22:char}</field>
-    <field name="template_id" ref="${29:email.template}" />
-    <field name="body_html">${2:text}</field>
 
 
 
