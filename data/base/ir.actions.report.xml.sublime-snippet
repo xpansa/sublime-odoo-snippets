@@ -7,7 +7,9 @@
     <field name="report_name">${4:out_filename}</field>
     <field name="attachment_use" eval="${5:True}" />
     <field name="attachment">${6:(object.name+'.pdf')}</field>
-    <field name="paperformat_id" ref="${7:report.paperformat_euro}" />
+    <field name="paperformat_id" ref="${7:report.paperformat_euro}" />${9:
+    <field name="header" eval="${8:boolean}" />}${11:
+    <field name="help">${10:text}</field>}
 </record>${0}
 ]]></content>
     <tabTrigger>ir.actions.report.xml</tabTrigger>
@@ -15,21 +17,3 @@
     <description>Common ir.actions.report.xml record definition</description>
 </snippet>
 
-
-<!--
-
-HELP
-
-- Valid values for report_type field:
-    - sxw
-    - pdf
-    - qweb-pdf
-
-
-    <field name="report_xsl">${7}</field>
-    <field name="report_xml">${8}</field>
-    <field name="report_rml_content_data"></field>
-    <field name="report_sxw_content_data"></field>
-    <field name="usage"></field>
-    <field name="parser"></field>
--->
