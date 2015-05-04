@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-<record id="${1:action_external_id_view_external_id}" model="ir.actions.act_window.view">
-    <field name="sequence" eval="${2:1}" />
-    <field name="act_window_id" ref="${3:action_external_id}" />
-    <field name="view_id" ref="${4:view_external_id}" />
-    <field name="view_mode">${5:tree}</field>
-    <field name="multi" eval="${6:False}" />
+<record id="action_${1/[^a-zA-Z]+/\_/g}${/[^a-zA-Z]+/\_/g}" model="ir.actions.act_window.view">
+    <field name="act_window_id" ref="${1:ir.actions.act_window}" />
+    <field name="view_id" ref="${2:ir.ui.view}" />
+    <field name="view_mode">${3:tree}</field>
+    <field name="sequence" eval="${4:1}" />
+    <field name="multi" eval="${5:False}" />
 </record>
 ]]></content>
     <tabTrigger>ir.actions.act_window.view</tabTrigger>

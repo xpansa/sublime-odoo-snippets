@@ -9,7 +9,7 @@
     <field name="target">${5:current}</field>${7:
     <field name="domain">[${6:}]</field>}${9:
     <field name="context">${8:\{\}}</field>}${11:
-    <field name="search_view_id" ref="${10}" />}
+    <field name="search_view_id" ref="${10:ir.ui.view}" />}
 </record>${0}
 ]]></content>
     <tabTrigger>ir.actions.act_window</tabTrigger>
