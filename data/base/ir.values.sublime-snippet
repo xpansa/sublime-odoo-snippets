@@ -17,16 +17,4 @@
     <scope>text.xml</scope>
 </snippet>
 
-<!--
-## key
 
-- default               1
-- action                76
-
-## key2
-
-- tree_but_open         69
-- client_print_multi    5
-- client_action_multi   2
-
--->
