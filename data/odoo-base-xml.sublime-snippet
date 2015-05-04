@@ -10,7 +10,7 @@
     </data>
 </openerp>
 ]]></content>
-    <tabTrigger>openerp</tabTrigger>
+    <tabTrigger>odoo</tabTrigger>
     <scope>text.xml</scope>
     <description>Odoo XML base file</description>
 </snippet>
