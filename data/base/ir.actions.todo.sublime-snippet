@@ -6,7 +6,7 @@
     <field name="state">${3:open}</field>
     <field name="sequence" eval="${4:10}" />
     <field name="action_id" ref="${5:ir.actions.actions}" />${7:
-    <field name="note">${6:Something about}</field>}
+    <field name="note">${6:Something about ${1}}</field>}
 </record>${0}
 ]]></content>
     <tabTrigger>ir.actions.todo</tabTrigger>
@@ -15,9 +15,3 @@
 </snippet>
 
 
-<!--
-TODO_STATES = [('open', 'To Do'),
-           ('done', 'Done')]
-TODO_TYPES = [('manual', 'Launch Manually'),('once', 'Launch Manually Once'),
-              ('automatic', 'Launch Automatically')]
-              -->

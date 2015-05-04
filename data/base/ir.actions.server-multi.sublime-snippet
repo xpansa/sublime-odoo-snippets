@@ -3,13 +3,15 @@
 <record id="action_${9:${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}}_server" model="ir.actions.server">
     <field name="type">ir.actions.server</field>
     <field name="name">${1:Name}</field>
-    <field name="model_id" ref="${3}.model_${4}" />
-    <field name="condition" eval="${5:True}" />
-    <field name="context" eval="{${6}}" />
-    <field name="code">action = pool.get('${7:${4/\_/\./g}}').browse(cr, uid, 1, context=context)</field>
-</record>${8}
+    <field name="model_id" ref="${2:ir.model}" />
+    <field name="condition" eval="${3:True}" />
+    <field name="sequence" eval="${4:5}" />
+    <field name="context" eval="${5:\{\}}" />
+    <field name="child_ids" eval="[(6, ref('${5:ir.actions.server}'))]" />
+</record>${0}
 ]]></content>
     <tabTrigger>ir.actions.server</tabTrigger>
     <scope>text.xml</scope>
     <description>Common ir.actions.server record definition</description>
 </snippet>
+
