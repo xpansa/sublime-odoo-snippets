@@ -4,7 +4,8 @@
 @api.depends('${1:depends}')
 def _compute_${2:field}(self):
     for record in self:
-        record.${2:field} = ${3:something}${0}
+        ${4:record.${2:field} = ${3:something}}
+${0}
 ]]></content>
     <tabTrigger>defcompute</tabTrigger>
     <scope>source.python</scope>

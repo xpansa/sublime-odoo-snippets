@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+@api.onchange('${1:field}')
+def _onchange_${1}(self):
+    return {
+        'warning': {
+            'title': '${2:Text of the title}',
+            'message': '${3:Text of the message}'
+        }
+    }${0}
+]]></content>
+    <tabTrigger>defonchange</tabTrigger>
+    <scope>source.python</scope>
+    <description>Onchange method signature, warning</description>
+</snippet>
