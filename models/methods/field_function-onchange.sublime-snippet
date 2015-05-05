@@ -3,7 +3,7 @@
 @api.one
 @api.onchange('${1:field}')
 def _onchange_${1}(self):
-    ${self.${2:field} = self.${1}0}
+    ${0:self.${2:field} = self.${1}}
 ]]></content>
     <tabTrigger>defonchange</tabTrigger>
     <scope>source.python</scope>
