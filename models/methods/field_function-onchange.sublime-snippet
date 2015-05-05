@@ -1,9 +1,19 @@
 <snippet>
 	<content><![CDATA[
 @api.one
-@api.noguess
 @api.onchange('${1:field}')
-def _onchange_${2:${1}}(self):
+def _onchange_${1}(self):
+    self.${2:field} = self.${1}${0}
+    }
+]]></content>
+    <tabTrigger>defonchange</tabTrigger>
+    <scope>source.python</scope>
+    <description>Common onchange method signature</description>
+</snippet>
+
+<!-- Comments:
+
+If function don't return a value, it can have an @api.one decorator
     return {
         'warning': {
             'title': '${3:Text of the title}',
@@ -15,15 +25,4 @@ def _onchange_${2:${1}}(self):
         'value': {
             ${6:'other_field': value,}
         }
-    }${0}
-]]></content>
-    <tabTrigger>defonchange</tabTrigger>
-    <scope>source.python</scope>
-    <description>Common onchange method signature</description>
-</snippet>
-
-<!-- Comments:
-
-If function don't return a value, it can have an @api.one decorator
-
 -->
