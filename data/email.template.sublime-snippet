@@ -19,6 +19,6 @@
 ]]></content>
     <tabTrigger>email.template</tabTrigger>
     <scope>text.xml</scope>
-    <description>Email template common fields</description>
+    <description>Common record definition for email.template</description>
 </snippet>
 

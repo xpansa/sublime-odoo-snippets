@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-${1:fldinln$TM_LINE_NUMBER} = fields.Char(
+${1:field_name} = fields.Char(
     string='${2:${1/(.)(.+)/\u$1$2/g}}',
     required=${3:False},
     readonly=${4:False},

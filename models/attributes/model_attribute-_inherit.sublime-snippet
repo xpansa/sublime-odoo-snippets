@@ -4,4 +4,5 @@ _inherit = ['${1:ir.model}'${2}]${0}
 ]]></content>
     <tabTrigger>_inherit</tabTrigger>
     <scope>source.python</scope>
+    <description>Model attribute _inherit with a module list</description>
 </snippet>

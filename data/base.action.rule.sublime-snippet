@@ -19,13 +19,5 @@
 ]]></content>
     <tabTrigger>base.action.rule</tabTrigger>
     <scope>text.xml</scope>
+    <description>Common record definition for base.action.rule</description>
 </snippet>
-
-<!--
-    'kind': fields.selection(
-            [('on_create', 'On Creation'),
-             ('on_write', 'On Update'),
-             ('on_create_or_write', 'On Creation & Update'),
-             ('on_time', 'Based on Timed Condition')],
-            string='When to Run'),
--->

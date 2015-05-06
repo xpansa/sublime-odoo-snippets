@@ -12,5 +12,5 @@
 ]]></content>
     <tabTrigger>ir.model.data</tabTrigger>
     <scope>text.xml</scope>
-    <description>XML ir.model.data record</description>
+    <description>Common record definition for ir.model.data</description>
 </snippet>

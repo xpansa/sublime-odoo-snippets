@@ -12,5 +12,5 @@
 ]]></content>
     <tabTrigger>odoo</tabTrigger>
     <scope>text.xml</scope>
-    <description>Odoo XML base file</description>
+    <description>Common base XML structure to be used in Odoo module data files</description>
 </snippet>

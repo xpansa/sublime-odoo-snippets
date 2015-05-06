@@ -9,5 +9,5 @@
 ]]></content>
     <tabTrigger>ir.model</tabTrigger>
     <scope>text.xml</scope>
-    <description>XML ir.model record</description>
+    <description>Common record definition for ir.model</description>
 </snippet>

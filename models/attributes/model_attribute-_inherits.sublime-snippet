@@ -18,4 +18,5 @@ ${2} = fields.Many2one(
 ]]></content>
     <tabTrigger>_inherits</tabTrigger>
     <scope>source.python</scope>
+    <description>Model attribute _inherits and single parent field</description>
 </snippet>
