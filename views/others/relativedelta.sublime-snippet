@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+(DateTime.now() - relativedelta(${1:months=2})).strftime('${2:%Y-%m-%d}${3: }${4:%H:%M:%S}')${0}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>relativedelta</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.xml</scope>
+    <description>Fully formated time relative to now</description>
+</snippet>

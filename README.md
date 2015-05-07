@@ -153,6 +153,12 @@ The scripts listed below can be used only in XML files:
 - views\others\object-menuitem.sublime-snippet
 - views\others\record.sublime-snippet
 
+- strftime: views\others\strftime
+- relativedelta: views\others\relativedelta
+- attribute: views\ir.ui.view-xpath-attribute
+
+- t: report-qweb-container
+
 ## Commands
 
 Project has a Python file with some useful utilities to work in Odoo code files, these are follo

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+strftime('${1:%Y-%m-%d}${2: }${3:%H:%M:%S}')${0}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>strftime</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.xml</scope>
+    <description>Fully formated strftime</description>
+</snippet>

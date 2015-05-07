@@ -2,7 +2,7 @@
 	<content><![CDATA[
 <record id="action_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_act_window" model="ir.actions.act_window">
     <field name="type">ir.actions.act_window</field>
-    <field name="name">${1:Name}</field>
+    <field name="name">${1:Human readable name}</field>
     <field name="res_model">${2:model.name}</field>
     <field name="view_mode">${3:tree,form}</field>
     <field name="view_type">${4:form}</field>

@@ -2,10 +2,10 @@
     <content><![CDATA[
 <record id="module_category_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}" model="ir.module.category">
     <field name="name">${1:Human readable name}</field>
-    <field name="parent_id" ref="${2}" />
-    <field name="description">${3}</field>
-    <field name="sequence" eval="${4:10=>group_categories / 0=>module categories}" />
-    <field name="visible" eval="${5:True}" />
+    <field name="sequence" eval="${2:10}" />
+    <field name="visible" eval="${3:True}" />
+    <field name="description">${4:${1} category}</field>${6:
+    <field name="parent_id" ref="${5:ir.module.category}" />}
 </record>${0}
 ]]></content>
     <tabTrigger>ir.module.category</tabTrigger>
@@ -29,4 +29,5 @@ had the 0 as sequence value and six (6) had the 10. The firsts of them were
 categories used in modules and the seconds were categories used as group
 categories.
 
+sequence: 10 =>group_categories / 0=>module categories
 -->
