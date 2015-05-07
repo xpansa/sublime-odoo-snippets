@@ -25,7 +25,7 @@ class ${1:ModelName}(models.Model):
         translate=True
     )${0}
 ]]></content>
-    <tabTrigger>prueba</tabTrigger>
+    <tabTrigger>models.Model</tabTrigger>
     <scope>source.python</scope>
     <description>Odoo generic model class</description>
 </snippet>
