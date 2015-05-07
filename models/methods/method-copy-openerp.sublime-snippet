@@ -10,7 +10,9 @@ def copy(self, default=None):
         @return: returns a id of newly created record
     """
 
-    return super(${1:ModelName}, self).copy(default)${0}
+    result = super(${1:ModelName}, self).copy(default)${0}
+
+    return result
 ]]></content>
     <tabTrigger>defcopy</tabTrigger>
     <scope>source.python</scope>

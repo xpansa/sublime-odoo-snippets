@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 <div class="oe_chatter">
-    <field name="message_follower_ids" widget="mail_followers"/>
-    <field name="message_ids" widget="mail_thread"/>
+    <field name="message_follower_ids" widget="mail_followers" />
+    <field name="message_ids" widget="mail_thread" />
 </div>${0}
 ]]></content>
     <tabTrigger>oe_chatter</tabTrigger>

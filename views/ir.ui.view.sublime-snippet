@@ -6,9 +6,9 @@
     <field name="type">${2:tree}</field>
     <field name="mode">${3:primary}</field>
     <field name="priority" eval="${4:16}" />
-    <field name="active" eval="${5:True}" />
-	${7:<field name="inherit_id" ref="${6:xml_id}" />
-    }<field name="arch" type="xml">
+    <field name="active" eval="${5:True}" />${7:
+    <field name="inherit_id" ref="${6:xml_id}" />}
+    <field name="arch" type="xml">
         ${0}
     </field>
 </record>

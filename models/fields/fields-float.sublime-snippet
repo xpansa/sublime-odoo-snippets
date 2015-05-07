@@ -1,12 +1,13 @@
 <snippet>
     <content><![CDATA[
 ${1:field_name} = fields.Float(
-    string='${2:${1/(.)(.+)/\u$1$2/g}}',
+    string='${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ $4)/g}}',
     required=${3:False},
     readonly=${4:False},
-    index=${5:0.0},
-    default=${6:None},
-    help=${7:False}
+    index=${5:False},
+    default=${6:0.0},
+    digits=(${7:16}, ${8:2}),
+    help=${9:False}
 )${0}
 ]]></content>
     <tabTrigger>fields.Float</tabTrigger>

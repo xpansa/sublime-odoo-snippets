@@ -9,7 +9,9 @@ def create(self, values):
         @return: returns a id of new record
     """
 
-    return super(${1:Model_Name}, self).create(values)${0}
+    result = super(${1:Model_Name}, self).create(values)${0}
+
+    return result
 ]]></content>
     <tabTrigger>defcreate</tabTrigger>
     <scope>source.python</scope>

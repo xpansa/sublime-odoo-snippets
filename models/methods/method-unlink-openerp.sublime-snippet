@@ -11,7 +11,9 @@ def unlink(self):
         #TODO: process before delete resource
     """
 
-    return super(${1:ModelName}, self).unlink()${0}
+    result = super(${1:ModelName}, self).unlink()${0}
+
+    return result
 ]]></content>
     <tabTrigger>defunlink</tabTrigger>
     <scope>source.python</scope>

@@ -11,7 +11,9 @@ def write(self, values):
         @return: True on success, False otherwise
     """
 
-    return super(${1:Model_Name}, self).write(values)${0}
+    result = super(${1:Model_Name}, self).write(values)${0}
+
+    return result
 ]]></content>
     <tabTrigger>defwrite</tabTrigger>
     <scope>source.python</scope>

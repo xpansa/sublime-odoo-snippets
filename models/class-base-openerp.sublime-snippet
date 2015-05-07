@@ -9,7 +9,7 @@ class ${1:ModelName}(models.Model):
     """
 
     _name = '${3:${1/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}}'
-    _description = u'${4:Description text}'
+    _description = u'${4:${1/((^[A-Z])|([A-Z]))/(?2:\u$2)(?3:\ \l$3)/g}}'
 
     _rec_name = 'name'
     _order = 'name ASC'
@@ -25,7 +25,7 @@ class ${1:ModelName}(models.Model):
         translate=True
     )${0}
 ]]></content>
-    <tabTrigger>models.Model</tabTrigger>
+    <tabTrigger>prueba</tabTrigger>
     <scope>source.python</scope>
     <description>Odoo generic model class</description>
 </snippet>

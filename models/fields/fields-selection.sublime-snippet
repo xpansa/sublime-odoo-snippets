@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 ${1:field_name} = fields.Selection(
-    string='${2:${1/(.)(.+)/\u$1$2/g}}',
+    string='${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ $4)/g}}',
     required=${3:False},
     readonly=${4:False},
     index=${5:False},
