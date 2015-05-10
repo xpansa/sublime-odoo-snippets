@@ -26,7 +26,7 @@ This plugin is not available in common Sublime repository, you will need to add 
 
 ## Commands
 
-Project has a Python file with some useful utilities to work in Odoo code files, these are follo
+Project has a Python file with some useful utilities to work in Odoo code files, these are the following:
 
 ### dashes
 
