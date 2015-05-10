@@ -6,7 +6,7 @@ def _onchange_${1}(self):
     ${3:self.${2:field} = self.${1}}
 ${0}
 ]]></content>
-    <tabTrigger>def</tabTrigger>
+    <tabTrigger>_onchange</tabTrigger>
     <scope>source.python</scope>
     <description>_onchange method signature, code</description>
 </snippet>
