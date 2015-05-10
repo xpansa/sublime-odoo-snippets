@@ -2,6 +2,18 @@
     <content><![CDATA[
 @classmethod
 def _browse(cls, env, ids):
+    """ Returns a recordset for the ids provided as parameter in the current
+        environment.
+
+        Can take no ids, a single id or a sequence of ids.
+
+        :param cls: model class
+        :param env: environment
+        :param ids: none, a single id or a sequence of ids
+
+        :return: a recordset
+    """
+
     result = ${1:class_name}._browse(env, ids)
     ${0}
     return result
