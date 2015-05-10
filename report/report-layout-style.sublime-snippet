@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+report.style
+]]></content>
+    <tabTrigger>layout</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Report style</description>
+</snippet>

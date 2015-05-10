@@ -1,0 +1,77 @@
+<snippet>
+    <content><![CDATA[
+<!-- REPORT: "${1:Human readable name}"
+
+    - Module: ${2:module}    Model: ${3:model}
+    - Language field used to translate it: ${4:lang}
+    - Report uses attachment: ${5:True}
+    - Report paperformat: ${6:report.paperformat_euro}
+    - View priority: ${7:16}    Active: ${8:True}
+    - Action help: ${9:Something about ${1/(.)/\1/g}}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<!-- Report "${1/(.)/\1/g}" document template -->
+<record id="view_${3/\./\_/g}_document_qweb" model="ir.ui.view">
+    <field name="name">${1/(.)/\1/g}</field>
+    <field name="model">${3/(.)/\1/g}</field>
+    <field name="type">qweb</field>
+    <field name="mode">primary</field>
+    <field name="priority" eval="${7/(.)/\1/g}" />
+    <field name="active" eval="${8/(.)/\1/g}" />
+    <field name="arch" type="xml">
+        <t t-name="${2/(.)/\1/g}.view_${3/\./\_/g}_document_qweb">
+            <t t-call="report.external_layout">
+                <div class="page">
+                    ${0:<h2>Report title</h2>
+                    <p>This object's name is <span t-field="o.name"/></p>}
+                </div>
+            </t>
+        </t>
+    </field>
+</record>
+
+<!-- Report "${1/(.)/\1/g}" translate_doc template -->
+<record id="view_${3/\./\_/g}_qweb" model="ir.ui.view">
+    <field name="name">${1/(.)/\1/g}</field>
+    <field name="model">${3/(.)/\1/g}</field>
+    <field name="type">qweb</field>
+    <field name="mode">primary</field>
+    <field name="priority" eval="${7/(.)/\1/g}" />
+    <field name="active" eval="${8/(.)/\1/g}" />
+    <field name="arch" type="xml">
+        <t t-name="${2/(.)/\1/g}.view_${3/\./\_/g}_qweb">
+            <t t-call="report.html_container">
+                <t t-foreach="doc_ids" t-as="doc_id">
+                    <t t-raw="translate_doc(doc_id, doc_model, '${4/(.)/\1/g}', '${2/(.)/\1/g}.view_${3/\./\_/g}_document_qweb')"/>
+                </t>
+            </t>
+        </t>
+    </field>
+</record>
+
+<!-- Report action to show: "${1/(.)/\1/g}" -->
+<record id="action_report_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}" model="ir.actions.report.xml">
+    <field name="name">${1/(.)/\1/g}</field>
+    <field name="model">${3/(.)/\1/g}</field>
+    <field name="report_type">qweb-pdf</field>
+    <field name="report_name">${2/(.)/\1/g}.view_${3/\./\_/g}_qweb</field>
+    <field name="attachment_use" eval="${5/(.)/\1/g}" />
+    <field name="attachment">(object.name+'.pdf')</field>
+    <field name="paperformat_id" ref="${6/(.)/\1/g}" />
+    <field name="help">${9/(.)/\1/g}</field>
+</record>
+
+<!-- Button to print the report: "${1/(.)/\1/g}" -->
+<record id="${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_values" model="ir.values">
+    <field name="name">${1/(.)/\1/g}</field>
+    <field name="model_id" ref="${2/(.)/\1/g}.model_${3/\./\_/g}" />
+    <field name="model">${3/(.)/\1/g}</field>
+    <field name="value" eval="'ir.actions.report.xml,' +str(ref('action_report_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}'))" />
+    <field name="key">action</field>
+    <field name="key2">client_print_multi</field>
+</record>
+]]></content>
+    <tabTrigger>fullreport</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Report: document and translation; action.report.xml and ir.values</description>
+</snippet>

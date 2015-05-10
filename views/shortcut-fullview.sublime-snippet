@@ -1,0 +1,98 @@
+<snippet>
+    <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data noupdate="${1:1}">
+
+        <!-- THIS FILE CONTAINS VIEWS, ACTIONS AND MENUS FOR THE MODEL
+             NAMED `${2}` IN THE FOLLOWING ORDER:
+
+             1. The tree view: view_${2/(\.)/\_/g}_tree
+             2. The form view: view_${2/(\.)/\_/g}_form
+             3. The search view: view_${2/(\.)/\_/g}_search
+             4. The window action: action_${3/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_act_window
+             5. The model main menu: menu_${3/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}
+        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+        <!-- Tree view for ${2} -->
+        <record id="view_${2/(\.)/\_/g}_tree" model="ir.ui.view">
+            <field name="name">view.${2}.tree</field>
+            <field name="model">${2:model.name}</field>
+            <field name="type">tree</field>
+            <field name="mode">primary</field>
+            <field name="priority" eval="16" />
+            <field name="active" eval="True" />
+            <field name="arch" type="xml">
+                <tree string="${2/[^a-z]+/\_/g}_tree" create="1" delete="1" edit="1">
+                    ${0}
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form view for ${2} -->
+        <record id="view_${2/(\.)/\_/g}_form" model="ir.ui.view">
+            <field name="name">view.${2}.form</field>
+            <field name="model">${2}</field>
+            <field name="type">form</field>
+            <field name="mode">primary</field>
+            <field name="priority" eval="16" />
+            <field name="active" eval="True" />
+            <field name="arch" type="xml">
+                <form string="${2/[^a-z]+/\_/g}_form" create="1" delete="1" edit="1">
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name" class="oe_edit_only" />
+                            <h1><field name="name" placeholder="Describe the item..." /></h1>
+                        </div>
+
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Search view for ${2} -->
+        <record id="view_${2/(\.)/\_/g}_search" model="ir.ui.view">
+            <field name="name">view.${2}.search</field>
+            <field name="model">${2}</field>
+            <field name="type">search</field>
+            <field name="mode">primary</field>
+            <field name="priority" eval="16" />
+            <field name="active" eval="True" />
+            <field name="arch" type="xml">
+                <search string="${2/[^a-z]+/\_/g}_search">
+
+                </search>
+            </field>
+        </record>
+
+        <!-- Main window action for ${2} -->
+        <record id="action_${3/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_act_window" model="ir.actions.act_window">
+            <field name="type">ir.actions.act_window</field>
+            <field name="name">${3:Human readable name}</field>
+            <field name="res_model">${2}</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_type">form</field>
+            <field name="target">current</field>
+            <field name="domain">[]</field>
+            <field name="context">{}</field>
+            <field name="search_view_id" ref="view_${2/(\.)/\_/g}_search" />
+        </record>
+
+        <!-- Main menu for ${2} -->
+        <record id="menu_${3/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}" model="ir.ui.menu" >
+            <field name="name">${3}</field>
+            <field name="sequence" eval="10" />
+            <field name="action" ref="ation_${3/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_act_window" />${5:
+            <field name="parent_id" ref="${4:base.menu_custom}" />}
+        </record>
+
+    </data>
+</openerp>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fullview</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.xml</scope>
+    <description>Views: form, tree, search; act_window and menu</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+report.external_layout_footer
+]]></content>
+    <tabTrigger>layout</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Report external_layout_footer</description>
+</snippet>

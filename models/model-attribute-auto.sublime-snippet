@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+_auto = ${1:False}${0}
+]]></content>
+    <tabTrigger>_auto</tabTrigger>
+    <scope>source.python</scope>
+    <description>Adds the _auto attribute</description>
+</snippet>

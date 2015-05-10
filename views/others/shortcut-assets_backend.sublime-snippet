@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+<record id="view_${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}_assets" model="ir.ui.view">
+    <field name="name">${1:module} assets</field>
+    <field name="model"></field>
+    <field name="type">qweb</field>
+    <field name="mode">extension</field>
+    <field name="priority" eval="${2:16}" />
+    <field name="active" eval="${3:True}" />
+    <field name="inherit_id" ref="web.assets_backend" />
+    <field name="arch" type="xml">
+        <xpath expr="." position="inside">${5:
+            <link rel="stylesheet" href="/${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}/static/src/css/${4:styles}.css" />}${7:
+            <script type="text/javascript" src="/${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}/static/src/js/${6:scripts}.js" />}${0}
+        </xpath>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>assets</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Include module assets in backend views</description>
+</snippet>

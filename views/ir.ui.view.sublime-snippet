@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
-<record id="view_${1/(\.)/\_/g}_${2}" model="ir.ui.view">
-    <field name="name">view.${1}.${2}</field>
-    <field name="model">${1:model.name}</field>
-    <field name="type">${2:tree}</field>
-    <field name="mode">${3:primary}</field>
-    <field name="priority" eval="${4:16}" />
-    <field name="active" eval="${5:True}" />${7:
-    <field name="inherit_id" ref="${6:xml_id}" />}
+<record id="view_${2/(\.)/\_/g}_${2}" model="ir.ui.view">
+    <field name="name">${1:Human readable name}</field>
+    <field name="model">${2:model.name}</field>
+    <field name="type">${3:tree}</field>
+    <field name="mode">${4:primary}</field>
+    <field name="priority" eval="${5:16}" />
+    <field name="active" eval="${6:True}" />${8:
+    <field name="inherit_id" ref="${7:xml_id}" />}
     <field name="arch" type="xml">
         ${0}
     </field>

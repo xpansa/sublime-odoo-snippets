@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+def init(self, cr):
+    """ Build database view which will be used as module origin
+
+        :param cr: database cursor
+    """
+
+    self._sql_query = """
+        SELECT
+            ROW_NUMBER() OVER() AS "id"
+    """
+
+    drop_view_if_exists(cr, ${1:self._table})
+    cr.execute(
+        'create or replace view {} as ({})'.format(
+            ${1},
+            self._sql_query
+        )
+    )${0}
+]]></content>
+    <tabTrigger>definit</tabTrigger>
+    <scope>source.python</scope>
+    <description>Adds the overloaded method `init` with a common code</description>
+</snippet>

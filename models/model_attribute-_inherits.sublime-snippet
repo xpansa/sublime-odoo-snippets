@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+_inherits = {'${1:model_name}': '${2:related_id}'${3}}${0}
+]]></content>
+    <tabTrigger>_inherits</tabTrigger>
+    <scope>source.python</scope>
+    <description>Model attribute _inherits and single parent field</description>
+</snippet>

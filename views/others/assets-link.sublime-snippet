@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<link rel="stylesheet" href="/${1:module_name}/static/src/css/${2:styles}.css" />${0}
+]]></content>
+    <tabTrigger>link</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Link tag to inglude an stylesheet</description>
+</snippet>
