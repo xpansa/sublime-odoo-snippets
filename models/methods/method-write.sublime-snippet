@@ -15,7 +15,7 @@ def write(self, values):
 
     return result
 ]]></content>
-    <tabTrigger>def</tabTrigger>
+    <tabTrigger>crud</tabTrigger>
     <scope>source.python</scope>
     <description>write method signature</description>
 </snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+@classmethod
+def _browse(cls, env, ids):
+    result = ${1:class_name}._browse(env, ids)
+    ${0}
+    return result
+]]></content>
+    <tabTrigger>crud</tabTrigger>
+    <scope>source.python</scope>
+    <description>_browse method signature</description>
+</snippet>

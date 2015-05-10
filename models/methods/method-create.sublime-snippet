@@ -13,7 +13,7 @@ def create(self, values):
 
     return result
 ]]></content>
-    <tabTrigger>def</tabTrigger>
+    <tabTrigger>crud</tabTrigger>
     <scope>source.python</scope>
     <description>create method signature</description>
 </snippet>
