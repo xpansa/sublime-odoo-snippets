@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<t t-js="${1:name}">
+    ${0:console.log("Foo is", ctx.foo);}
+</t>
+]]></content>
+    <tabTrigger>t-js</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Qweb javascript</description>
+</snippet>

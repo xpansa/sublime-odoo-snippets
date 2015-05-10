@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+t-att="${1:dict_of_pair}"
+]]></content>
+    <tabTrigger>t-att</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Qweb attribute</description>
+</snippet>

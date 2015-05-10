@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<t t-log="${1:value}"/>${0}
+]]></content>
+    <tabTrigger>t-log</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Qweb logging</description>
+</snippet>

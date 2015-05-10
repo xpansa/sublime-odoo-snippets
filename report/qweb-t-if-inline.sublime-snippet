@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<${1:tag} t-if="${2:condition}">${3:value}</${1}>${0}
+]]></content>
+    <tabTrigger>t-if</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Qweb inline conditional</description>
+</snippet>
+

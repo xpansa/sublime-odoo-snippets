@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<t t-raw="translate_doc(${1:doc_id}, ${2:doc_model}, '${3:lang}', ${4:module.template'})" />
+]]></content>
+    <tabTrigger>t-raw</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Qweb translate document</description>
+</snippet>

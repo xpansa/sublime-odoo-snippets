@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<t t-if="${1:codition}">
+    ${0}
+</t>
+]]></content>
+    <tabTrigger>t-if</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Qweb conditional</description>
+</snippet>
+

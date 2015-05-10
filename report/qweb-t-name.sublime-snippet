@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<t t-name="${1:template-name}">
+    ${0:<!-- template code -->}
+</t>
+]]></content>
+    <tabTrigger>t-name</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Qweb top level named template</description>
+</snippet>

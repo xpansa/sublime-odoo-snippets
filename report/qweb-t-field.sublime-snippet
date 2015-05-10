@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<${1:span} t-field="${2:o}.${3:name}" />${0}
+]]></content>
+    <tabTrigger>t-field</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Qweb field access</description>
+</snippet>

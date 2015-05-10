@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<t t-foreach="${1:set}" t-as="${2:name}">
+    ${0}
+</t>
+]]></content>
+    <tabTrigger>t-foreach</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Qweb loop</description>
+</snippet>
+

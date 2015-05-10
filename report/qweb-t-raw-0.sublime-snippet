@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<t t-raw="0" />
+]]></content>
+    <tabTrigger>t-raw</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Qweb template from context</description>
+</snippet>

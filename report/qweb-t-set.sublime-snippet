@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<t t-set="${1:name}">
+    ${0}
+</t>
+]]></content>
+    <tabTrigger>t-set</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Qweb variable</description>
+</snippet>
+

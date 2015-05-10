@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+<t t-extend="${1:base.template}">
+    <t t-jquery="${2:ul}" t-operation="${3:append}">
+        ${4:code}
+    </t>${0}
+</t>
+]]></content>
+    <tabTrigger>t-extend</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Qweb template inheritance</description>
+</snippet>
+<!--
+
+    append
+    the node’s body is appended at the end of the context node (after the context node’s last child)
+    prepend
+    the node’s body is prepended to the context node (inserted before the context node’s first child)
+    before
+    the node’s body is inserted right before the context node
+    after
+    the node’s body is inserted right after the context node
+    inner
+    the node’s body replaces the context node’s children
+    replace
+    the node’s body is used to replace the context node itself
+    No operation
+    if no t-operation is specified, the template body is interpreted as javascript code and executed with the context node as this
+
+    Warning
+    while much more powerful than other operations, this mode is also much harder to debug and maintain, it is recommended to avoid it
+-->
