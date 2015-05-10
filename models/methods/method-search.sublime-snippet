@@ -4,7 +4,7 @@
 def _search_${1: field}(self, operator, value):
     return [('${2:related}', operator, value)]${0}
 ]]></content>
-    <tabTrigger>defsearch</tabTrigger>
+    <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
     <description>Common search method signature</description>
 </snippet>

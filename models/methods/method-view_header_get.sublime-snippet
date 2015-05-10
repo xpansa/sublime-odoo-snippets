@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+@api.model
+def view_header_get(self, view_id=None, view_type='form'):
+    """ Returns the window title which depends on the context """
+
+    ${0:return False}
+]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.python</scope>
+    <description>view_header_get method signature</description>
+</snippet>

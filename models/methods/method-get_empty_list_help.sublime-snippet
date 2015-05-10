@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+@api.model
+def get_empty_list_help(self, help):
+    """ Generic method giving the help message displayed when having
+        no result to display in a list or kanban view.
+    """
+
+    ${0:return help}
+]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.python</scope>
+    <description>get_empty_list_help method signature</description>
+</snippet>

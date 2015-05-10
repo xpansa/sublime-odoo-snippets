@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+@api.one
+@api.returns('ir.ui.view')
+def get_formview_id(self):
+    """ Return an view id to open the document with.
+
+        :param int id: id of the document to open
+    """
+
+    ${0:return False}
+]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.python</scope>
+    <description>get_formview_id method signature</description>
+</snippet>

@@ -19,7 +19,7 @@ def init(self, cr):
         )
     )${0}
 ]]></content>
-    <tabTrigger>definit</tabTrigger>
+    <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
     <description>Adds the overloaded method `init` with a common code</description>
 </snippet>
