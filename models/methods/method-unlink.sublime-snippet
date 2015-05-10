@@ -17,5 +17,5 @@ def unlink(self):
 ]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
-    <description>Common unlink method signature</description>
+    <description>unlink method signature</description>
 </snippet>

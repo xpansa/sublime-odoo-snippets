@@ -6,5 +6,5 @@ def _search_${1: field}(self, operator, value):
 ]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
-    <description>Common search method signature</description>
+    <description>_search method signature</description>
 </snippet>

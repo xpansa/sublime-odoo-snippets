@@ -8,5 +8,5 @@ ${0}
 ]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
-    <description>Common onchange method signature, code</description>
+    <description>_onchange method signature, code</description>
 </snippet>

@@ -16,5 +16,5 @@ def copy(self, default=None):
 ]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
-    <description>Common copy method signature</description>
+    <description>copy method signature</description>
 </snippet>

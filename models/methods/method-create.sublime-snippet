@@ -15,5 +15,5 @@ def create(self, values):
 ]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
-    <description>Common create method signature</description>
+    <description>create method signature</description>
 </snippet>

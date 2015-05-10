@@ -17,5 +17,5 @@ def write(self, values):
 ]]></content>
     <tabTrigger>def</tabTrigger>
     <scope>source.python</scope>
-    <description>Common write method signature</description>
+    <description>write method signature</description>
 </snippet>
