@@ -1,6 +1,8 @@
 <snippet>
     <content><![CDATA[
-report.internal_layout
+<t t-call="report.internal_layout">
+    ${0}
+</t>
 ]]></content>
     <tabTrigger>layout</tabTrigger>
     <scope>text.xml</scope>
