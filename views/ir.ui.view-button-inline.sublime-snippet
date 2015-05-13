@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<button name="${1:function_name}" string="${2:string}" ${4:type="${3:object}"} ${5:special="cancel"} />
+]]></content>
+    <tabTrigger>button</tabTrigger>
+    <scope>text.xml</scope>
+        <description>Online button tag definition</description>
+</snippet>

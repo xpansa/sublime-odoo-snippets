@@ -1,6 +1,13 @@
 <snippet>
     <content><![CDATA[
-<button name="${1:function_name}" states="${2:state}" string="${3:string}" type="object" icon="${4:icon}"/>
+<button name="${1:function_name}"
+        string="${2:string}"${4:
+        type="${3:object}"}${5:
+        special="cancel"}${7:
+        default_focus="${6:0}"}${9:
+        icon="${8:gtk-apply}"}${11:
+        confirm="${10:message}"}${13:
+        help="${12:message}"} />
 ]]></content>
     <tabTrigger>button</tabTrigger>
     <scope>text.xml</scope>

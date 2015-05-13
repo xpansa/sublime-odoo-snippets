@@ -9,7 +9,7 @@
 ]]></content>
         <tabTrigger>ir.ui.menu</tabTrigger>
         <scope>text.xml</scope>
-            <description>Common ir.ui.menu record definition</description>
+        <description>Common ir.ui.menu record definition</description>
 </snippet>
 
 <!--
