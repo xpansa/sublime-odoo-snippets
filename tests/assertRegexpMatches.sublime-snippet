@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+assertRegexpMatches(${1:text}, ${2:regexp}${4:, ${3:msg=None}})
+]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <tabTrigger>assertRegexpMatches</tabTrigger>
+    <scope>source.python</scope>
+    <description>assertRegexpMatches</description>
+</snippet>

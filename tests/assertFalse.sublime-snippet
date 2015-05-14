@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+assertFalse(${1:expr}${3:, ${2:msg=None}})
+]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <tabTrigger>assertFalse</tabTrigger>
+    <scope>source.python</scope>
+    <description>assertFalse</description>
+</snippet>

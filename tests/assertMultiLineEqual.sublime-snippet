@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+assertMultiLineEqual(${1:first}, ${2:second}${4:, ${3:msg=None}})
+]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <tabTrigger>assertMultiLineEqual</tabTrigger>
+    <scope>source.python</scope>
+    <description>assertMultiLineEqual</description>
+</snippet>

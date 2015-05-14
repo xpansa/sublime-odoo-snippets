@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+assertSetEqual(${1:set1}, ${2:set2}${4:, ${3:msg=None}})
+]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <tabTrigger>assertSetEqual</tabTrigger>
+    <scope>source.python</scope>
+    <description>assertSetEqual</description>
+</snippet>

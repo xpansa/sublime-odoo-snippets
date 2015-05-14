@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+assertRaises(${1:exception}, ${2:callable}, ${3:*args}, ${4:**kwds})
+]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <tabTrigger>assertRaises</tabTrigger>
+    <scope>source.python</scope>
+    <description>assertRaises (extended)</description>
+</snippet>

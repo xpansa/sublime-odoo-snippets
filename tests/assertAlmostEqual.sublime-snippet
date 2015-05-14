@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+assertAlmostEqual(${1:first}, ${2:second}${4:, ${3:places=7}}${6:, ${5:msg=None}}${8:, ${7:delta=None}})
+]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <tabTrigger>assertAlmostEqual</tabTrigger>
+    <scope>source.python</scope>
+    <description>assertAlmostEqual</description>
+</snippet>

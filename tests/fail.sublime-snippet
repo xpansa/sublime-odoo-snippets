@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+fail(${1:msg=None})
+]]></content>
+    <tabTrigger>fail</tabTrigger>
+    <scope>source.python</scope>
+    <description>fail</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+assertRaises(${1:exception})
+]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <tabTrigger>assertRaises</tabTrigger>
+    <scope>source.python</scope>
+    <description>assertRaises</description>
+</snippet>
