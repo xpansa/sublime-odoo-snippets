@@ -22,7 +22,7 @@ This plugin is not available in common Sublime repository, you will need to add 
 
 ## Snippets available
 
-> See the wiki
+> See the [wiki](https://github.com/sotogarcia/sublime-odoo-snippets/wiki)
 
 ## Commands
 
