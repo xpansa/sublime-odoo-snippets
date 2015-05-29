@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+def _log(self, level, msg_format, *args, **kwargs):
+    """ Outputs an formated string in log
+
+        :param level (int): 1=> debug, 2=> info, 3=> warning, 4=> error
+        :param message (basestring): name of the message
+    """
+
+    methods = ['debug', 'info', 'warning', 'error']
+    log = getattr(_logger, methods[level])
+
+    msg = msg_format.format(*args, **kwargs)
+    log(msg)
+]]></content>
+    <tabTrigger>_log</tabTrigger>
+    <scope>source.python</scope>
+    <description>Common _log method</description>
+</snippet>

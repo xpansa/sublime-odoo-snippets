@@ -6,7 +6,7 @@
 #    __openerp__.py file at the root folder of this module.                   #
 ###############################################################################
 
-from openerp import models, fields, api
+from openerp.http import route, request, Controller
 from openerp.tools.translate import _
 from logging import getLogger
 
@@ -18,6 +18,5 @@ ${0}
 ]]></content>
     <tabTrigger>odoo</tabTrigger>
     <scope>source.python</scope>
-    <description>Odoo Python base file</description>
+    <description>Odoo Python controller file</description>
 </snippet>
-

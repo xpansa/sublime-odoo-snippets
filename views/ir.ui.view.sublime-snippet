@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<record id="view_${2/(\.)/\_/g}_${2}" model="ir.ui.view">
+<record id="view_${2/[^a-z]+/\_/g}_${3}" model="ir.ui.view">
     <field name="name">${1:Human readable name}</field>
     <field name="model">${2:model.name}</field>
     <field name="type">${3:tree}</field>

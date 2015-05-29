@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+_sql_constraints = [
+    (
+        '${1:name}',
+        '${2:constraint}',
+        _(u'${3:message}')
+    )${4}
+]${0}
+]]></content>
+    <tabTrigger>_sql_constraints</tabTrigger>
+    <scope>source.python</scope>
+    <description>Module SQL contraints</description>
+</snippet>

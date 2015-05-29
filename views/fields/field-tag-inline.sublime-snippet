@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<field name="${1:name}" class="${2:oe_field_${1/([^a-zA-Z\-\_0-9]+)/\_/g}}"
+    string="${3:${1/((^.)|(_+))/(?2:\u$2)(?3:\ )/g}}" placeholder="${4:${3/(.)/\1/g}}"
+    help="${5:Enter the new value for ${3/(.)/\1/g}}" />${0}
+]]></content>
+    <tabTrigger>field</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Common field tag</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+def test_${1:item_name}(self):
+    """ Checks if the ${1} works properly
+    """
+
+    ${0:pass}
+]]></content>
+    <tabTrigger>test</tabTrigger>
+    <scope>source.python</scope>
+    <description>Test case method</description>
+</snippet>

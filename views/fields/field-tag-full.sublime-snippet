@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+<field
+    name="${1:name}"${3:
+    string="${2:${1/((^.)|(_+))/(?2:\u$2)(?3:\ )/g}}"}${5:
+    nolabel="${4:0}"}${7:
+    required="${6:0}"}${9:
+    readonly="${8:0}"}${11:
+    invisible="${10:0}"}${13:
+    widget="${12:char}"}${15:
+    class="${14:oe_field_${1/([^a-zA-Z\-\_0-9]+)/\_/g}}"}${17:
+    placeholder="${16:${1/((^.)|(_+))/(?2:\u$2)(?3:\ )/g}}"}${19:
+    help="${18:Enter new value for ${1/((^.)|(_+))/(?2:\u$2)(?3:\ )/g}}"}${21:
+    mode="${20:tree}"}${23:
+    filename="${22:${1/(([A-Za-z0-9])|([^A-Za-z0-9]+))/(?2:\l$2)(?3:\_)/g}}"}${25:
+    password="${24:0}"}${27:
+    domain="${26:[]}"}${29:
+    context="${28:\{\}}"} />${0}
+]]></content>
+    <tabTrigger>field</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Full field tag</description>
+</snippet>

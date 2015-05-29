@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-search=lambda self, oper, val: self._search_${1:field}(oper, val)${0}
+${1:model_obj}.search(${2:args}${5:, offset=${4:0}}${7:, limit=${6:None}}${10:, order=${9:None}}${12:, context=${11:None}}${14:, count=${13:False}})
 ]]></content>
-    <tabTrigger>search</tabTrigger>
+    <tabTrigger>fullsearch</tabTrigger>
     <scope>source.python</scope>
-    <description>Field attribute: search, lambda function</description>
+    <domain>Full search method</domain>
 </snippet>
